@@ -16,7 +16,7 @@ var kbs, kenburn = {
       images: [
         "assets/img/home/22.jpg",
         "assets/img/home/21.jpg",
-//        "assets/img/home/23.jpg",
+        "assets/img/home/23.jpg",
         "assets/img/home/27.jpg",
         "assets/img/home/29.jpg"
       ],
@@ -56,11 +56,20 @@ $(document).ready(function () {
   });
   $('#main-mnu').on('click', function () {
     $('#ad-mnu').addClass('in');
+          
+
   });
 
   setTimeout(function(){
     $('#top-mnu').addClass('open').find('.diamond').not(':first').addClass('in');
   }, 1000);
+  
+//  $('.out-dmnd').mouseover(function(){
+//     $(this).find('img').attr('src', 'assets/img/logo_kcr1.png'); 
+//  });
+//  $('#top-mnu section').mouseleave(function(){
+//     $(this).find('img').attr('src', 'assets/img/logo_kcr.png'); 
+//  });
 
   /* Gallery */
   if(window.location.pathname == '/gallery.html'){
@@ -71,7 +80,6 @@ $(document).ready(function () {
       }
   });
   }
-  
   $('.demo').on('click', '.diamond-box-wrap', function () {
     $(this).addClass('active');
     var img = new Image();
