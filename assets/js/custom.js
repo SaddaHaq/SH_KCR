@@ -54,10 +54,8 @@ $(document).ready(function () {
     else
       $('#ad-mnu .tag').text('');
   });
-  $('#main-mnu').on('click', function () {
+  $('.main-mnu').on('click', function () {
     $('#ad-mnu').addClass('in');
-          
-
   });
 
   setTimeout(function(){

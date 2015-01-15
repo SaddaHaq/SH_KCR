@@ -684,7 +684,7 @@ ul#socialicons li:focus a, ul.socialicons li:focus a {
 .sub-page{
     background: #000;
     position: relative;
-    padding-bottom: 30px;
+/*    padding-bottom: 30px;*/
     overflow: hidden;
 }
 .sub-page:hover {
@@ -1701,8 +1701,10 @@ ul.comments-list li:nth-child(even){
     margin-bottom: 20px;
 }
 #contact .contact-details{
-    margin:50px 0 30px 0;
+    margin:30px 0 30px 0;
     padding: 0;
+    text-align: left;
+    float: left;
 }
 #contact .contact-details li{
     list-style: none;
@@ -1754,6 +1756,32 @@ form#contact-form{
 #alert-wrapper .alert{
     padding:0;
     margin:10px;
+}
+.cnt-ofcl-links{
+    text-decoration: none !important; 
+}
+.cnt-ofcl-links p{
+    font-size: 1.5em;
+    color: white;
+}
+.cnt-ofcl-links:hover p{
+    color: #F74895;
+}
+
+.contact-details li i{
+width: 25px;
+height: 25px;
+font-size: 1em;
+text-align: center;
+/*border: 1px solid white;*/
+color: #F74895;
+padding: 5px;
+border-radius:50%; 
+background-color: #fff;
+margin-right: 8px;
+}
+.li-i{
+padding: 20px 0px 0px 0px;    
 }
 
 /*Vertial Portfolio 
@@ -2640,6 +2668,7 @@ ul.featured-hex li .hex-des a:hover{
     transition : all .15s ease-out;
     -webkit-transition : all .15s ease-out;
     -moz-transition : all .15s ease-out;
+    z-index: 99999;
 }
 #main-mnu:hover {
     transform: scale(1.1);

@@ -1589,14 +1589,14 @@ $gmap.gmap3({
           {
               featureType: "all",
               stylers: [
-                  {"saturation": -100}, {"gamma": 0.9}
+                  {"saturation": -90}, {"gamma": 0.9}
               ]
           }
       ]
   },
   overlay:{
     //Edit following line and enter your own address
-    address: "Footscray VIC 3011 Australia",
+    address: "Telangana Secretariat",
     options:{
       content: '<div id="map-marker"><i class="fa fa-map-marker"></i></div>',
       offset:{
