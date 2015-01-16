@@ -502,7 +502,7 @@ $("body").on('cs-click','.fullscreen-enable a',function(event){
       +'<div class="counter"><span class="counter-current"></span><span class="counter-divider">/</span><span class="counter-total"></span></div>'
       +'<a class="prev"><i class="fa fa-angle-left"></i></a>'
       +'<a class="next"><i class="fa fa-angle-right"></i></a>'
-      +'<a class="close"><img src="assets/img/close-cursor.png" title="close" alt="x"></a>'
+      +'<a class="close"><img src="../assets/img/close-cursor.png" title="close" alt="x"></a>'
       +'<a class="play-pause"></a>'
       +'</div>';
     upstreamIn(upstreamContent);
