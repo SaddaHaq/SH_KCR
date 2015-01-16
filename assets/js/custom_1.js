@@ -486,7 +486,8 @@ var upstreamOut = function(){
 var upstreamIn = function(html,callback){
   $('#swiper-content').addClass('not-visible');
   var $ups = $("#upstream").show().html(html);
-  TweenMax.to($ups,1.5,{height:'50%', ease:Power4.easeOut,onComplete:function(){
+  // hight changed 50% to 100%
+  TweenMax.to($ups,1.5,{height:'100%', ease:Power4.easeOut,onComplete:function(){
     if( typeof callback == "function" ){callback()};
   }});
 }
