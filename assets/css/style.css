@@ -9,16 +9,25 @@ body,html {
     height: 100%;
 }
 body {
-    font-family: 'PT Sans', Arial, sans-serif;
+    font-family: 'PT Sans', Arial, sans-serif !important;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.3;
     background: #000;
-    color: #a0a1a6;
+    color: #a0a1a6 !important;
     margin:0;
     padding:0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+	font-family: 'Exo 2', Helvetica, Arial, sans-serif !important;
+	font-weight: 500 !important;
+	color: #fff !important;
+
+}
+.page-side h1, .page-side h2, .page-side h3, .page-side h4, .page-side h5, .page-side h6, .page-side .h1, .page-side .h2, .page-side .h3, .page-side .h4, .page-side .h5, .page-side .h6 {
+color: #363636 !important;
 }
 .lightbox {
     position: fixed;
@@ -129,12 +138,7 @@ a,a:hover,a:focus {
     outline: 0;
 }
 
-h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
-    font-family: 'Exo 2', Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    color: #fff;
 
-}
 
 .hex-1{
     -webkit-transform: rotate(120deg);
@@ -265,7 +269,8 @@ img[src*="loading.gif"] {
 .sub-page-title h2{
     line-height: 80px;
     margin: 0;
-    color: #fff;
+    /*color: #fff;*/
+    color: #363636 !important;
     font-weight: 400;
     font-size: 31px;
 }
@@ -1552,7 +1557,9 @@ ul#blog-filters li.active-cat a{
     border-bottom: 1px solid #292929;
     color:#b1b1b1;
 }
-
+.post-contents p{
+    font-size: 16px;
+}
 .comments h3{
     margin: 30px 0;
 }
@@ -2387,7 +2394,7 @@ ul.featured-hex li .hex-des a:hover{
     }
 
     .single-post{
-        width:50%;
+        width:70%;
     }
 
 }
