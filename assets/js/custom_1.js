@@ -27,6 +27,21 @@ $('[rel="tooltip"]').tooltip();
 //Contact form inputs place holder
 $(":input[placeholder]").placeholder();
 
+$(document).ready(function(){
+       setTimeout(function () {
+              $('body').addClass('collaps-side');      
+                }, 800);
+       $('span.lft-mrkr').mouseover(function(){
+       $('body').removeClass('collaps-side');
+       $('span.lft-mrkr').fadeOut(500);
+       });
+       
+           $('.inner-wrapper i').click(function(){
+           $('body').addClass('collaps-side');
+           $('span.lft-mrkr').show();
+           });
+       });
+
 /*Lazy load images
 ----------------------------------------------*/
 $("img.lazy").lazyload({

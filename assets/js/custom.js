@@ -1,6 +1,7 @@
 
 /* home kenburn slider
  ----------------------------------------------*/
+
 var kbs, kenburn = {
   settings: {
     viewport: $('#kb-container')
