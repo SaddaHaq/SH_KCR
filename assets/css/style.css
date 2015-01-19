@@ -802,10 +802,10 @@ ul#socialicons li:focus a, ul.socialicons li:focus a {
 
 #hello-inner{
     position: relative;
-    top: 50%;
+    top: 93%;
     left:120%;
-    width:75%;
-    min-height: 300px;
+    width:64%;
+    min-height: 139px;
     margin-top: -150px;
     background: rgba(16, 20, 22, 0.4);
     z-index: 3;
@@ -831,14 +831,14 @@ ul#socialicons li:focus a, ul.socialicons li:focus a {
     top: 0;
     left: 130px;
     height: 100%;
-    padding: 65px 35px;
+    /*padding: 65px 35px;*/
 }
 #hello-contents h1{
     font-size: 53px;
     color: #fff;
     font-weight: 300;
-    margin: 45px 0 10px 0;
-    -webkit-text-stroke: 0.5px;
+    margin: 32px 0 10px 0;
+    /*-webkit-text-stroke: 0.5px;*/
 }
 #hello-contents h2{
     font-size: 20px;
@@ -850,10 +850,6 @@ ul#socialicons li:focus a, ul.socialicons li:focus a {
     top: -15px;
     color:#eee;
 }
-
-
-
-
 #enhancer{
     position: absolute;
     top: 0;
@@ -1485,7 +1481,8 @@ ul#blog-filters li.active-cat a{
 
 #blog-posts{
     /*margin:5%;*/
-    margin:3%;
+    margin-top:3%;
+    margin-left: 5%;
 }
 .blog-item{
     width: 100%;
@@ -1771,7 +1768,7 @@ form#contact-form{
 }
 .cnt-ofcl-links p{
     font-size: 1.5em;
-    color: white;
+    color: #F74895;
 }
 .cnt-ofcl-links:hover p{
     color: #F74895;

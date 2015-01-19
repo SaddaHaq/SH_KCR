@@ -29,17 +29,24 @@ $(":input[placeholder]").placeholder();
 
 $(document).ready(function(){
        setTimeout(function () {
-              $('body').addClass('collaps-side');      
+              $('body').addClass('collaps-side');
+              $('.blog-item').css({'width': '30%', 'margin-left': '0px', 'padding': '20px'});
+              $('a#blog-more').trigger('click');
                 }, 800);
-       $('span.lft-mrkr').mouseover(function(){
-       $('body').removeClass('collaps-side');
-       $('span.lft-mrkr').fadeOut(500);
-       });
+                $('span.lft-mrkr').mouseover(function(){
+                $('body').removeClass('collaps-side');
+                $('span.lft-mrkr').fadeOut(500);
+                $('.blog-item').css({'width': '35%', 'margin-left': '5%', 'padding': '5px'});
+                $('.blog-post').css({'margin-left': '0.5%'});
+                $('a#blog-more').trigger('click');
+                });
        
-           $('.inner-wrapper i').click(function(){
-           $('body').addClass('collaps-side');
-           $('span.lft-mrkr').show();
-           });
+                $('.inner-wrapper i').click(function(){
+                $('body').addClass('collaps-side');
+                $('span.lft-mrkr').show();
+                $('.blog-item').css({'width': '30%', 'margin-left': '0px', 'padding': '20px'});
+                $('a#blog-more').trigger('click');
+                });
        });
 
 /*Lazy load images
@@ -494,7 +501,7 @@ var ms,menuPannel = {
 var upstreamOut = function(){
   var $ups = $("#upstream");
   $('#swiper-content').removeClass('not-visible');
-  TweenMax.to($ups,1.5,{height:0, ease:Power4.easeOut, onComplete:function(){
+  TweenMax.to($ups,1.5,{height:'100%', width: '100%', ease:Power4.easeOut, onComplete:function(){
       $ups.html('').hide();
   }});
 }
@@ -502,7 +509,7 @@ var upstreamIn = function(html,callback){
   $('#swiper-content').addClass('not-visible');
   var $ups = $("#upstream").show().html(html);
   // hight changed 50% to 100%
-  TweenMax.to($ups,1.5,{height:'100%', ease:Power4.easeOut,onComplete:function(){
+  TweenMax.to($ups,0,{height:'100%', width: '100%', ease:Power4.easeOut,onComplete:function(){
     if( typeof callback == "function" ){callback()};
   }});
 }
@@ -1278,7 +1285,7 @@ var hgs, HorizontalGallery = {
     if (aspectRatio<1){
       $images.css({height:'auto',width:'100%'});
     }else{
-      $images.css({height:'100%',width:'auto'});
+      $images.css({height:'100%',width:'auto', cursor: '-webkit-zoom-in'});
     }
   },
   prepare: function(){
@@ -1501,7 +1508,7 @@ var bs,blog = {
     bs.blogMore.on('click',function(e){
         e.preventDefault();
         
-        var $newItems = $('<div class="blog-item diary expo daily"><div class="inside"><img src="assets/img/blog/posts/thumb/01.jpg" alt="image" class="img-responsive"><div class="blog-item-contents"><h3><a href="ajax_pages/single-post.html" class="upstream-post">My latest Portraits of Angella</a></h3><div class="post-meta"><div class="post-author"><i class="fa fa-edit"></i>Erica Franklin</div><div class="post-date"><i class="fa fa-calendar"></i>2014/01/01</div><div class="post-cat"><i class="fa fa-folder"></i>Portraits</div></div><div class="post-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div><div class="post-more"><a href="ajax_pages/single-post.html" class="upstream-post">read more</a></div></div></div></div><div class="blog-item diary expo daily"><div class="inside"><img src="assets/img/blog/posts/thumb/01.jpg" alt="image" class="img-responsive"><div class="blog-item-contents"><h3><a href="ajax_pages/single-post.html" class="upstream-post">My latest Portraits of Angella</a></h3><div class="post-meta"><div class="post-author"><i class="fa fa-edit"></i>Erica Franklin</div><div class="post-date"><i class="fa fa-calendar"></i>2014/01/01</div><div class="post-cat"><i class="fa fa-folder"></i>Portraits</div></div><div class="post-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div><div class="post-more"><a href="ajax_pages/single-post.html" class="upstream-post">read more</a></div></div></div></div>');
+        var $newItems = $('<div class="blog-item diary expo daily"><div class="inside"><img src="../assets/img/blog/posts/thumb/01.jpg" alt="image" class="img-responsive"><div class="blog-item-contents"><h3><a href="ajax_pages/single-post.html" class="upstream-post">My latest Portraits of Angella</a></h3><div class="post-meta"><div class="post-author"><i class="fa fa-edit"></i>Erica Franklin</div><div class="post-date"><i class="fa fa-calendar"></i>2014/01/01</div><div class="post-cat"><i class="fa fa-folder"></i>Portraits</div></div><div class="post-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div><div class="post-more"><a href="ajax_pages/single-post.html" class="upstream-post">read more</a></div></div></div></div><div class="blog-item diary expo daily"><div class="inside"><img src="../assets/img/blog/posts/thumb/01.jpg" alt="image" class="img-responsive"><div class="blog-item-contents"><h3><a href="ajax_pages/single-post.html" class="upstream-post">My latest Portraits of Angella</a></h3><div class="post-meta"><div class="post-author"><i class="fa fa-edit"></i>Erica Franklin</div><div class="post-date"><i class="fa fa-calendar"></i>2014/01/01</div><div class="post-cat"><i class="fa fa-folder"></i>Portraits</div></div><div class="post-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div><div class="post-more"><a href="ajax_pages/single-post.html" class="upstream-post">read more</a></div></div></div></div>');
         bs.isotopeContainer.isotope( 'insert', $newItems, function(){
           bs.isotopeContainer.isotope( 'reLayout' );
         });

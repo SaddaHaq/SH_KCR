@@ -34,7 +34,7 @@ var kbs, kenburn = {
 };
 
 $(document).ready(function () {
-// This event changed ID to CLASS 
+// in this event changed ID to CLASS 
   $('.shw-ad-mnu').on('click', function (e) {
     e.preventDefault();
     var id = $(this).data('id');
@@ -71,7 +71,7 @@ $(document).ready(function () {
 //  });
 
   /* Gallery */
-  if(window.location.pathname == '/gallery.html'){
+  if(window.location.pathname !== ''){
   $(document).mouseup(function(e){
       var mnu = $('#ad-mnu');
       if(e.target.id != mnu.attr('id')){
