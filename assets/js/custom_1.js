@@ -30,22 +30,24 @@ $(":input[placeholder]").placeholder();
 $(document).ready(function(){
        setTimeout(function () {
               $('body').addClass('collaps-side');
-              $('.blog-item').css({'width': '30%', 'margin-left': '0px', 'padding': '20px'});
               $('a#blog-more').trigger('click');
+              $('.blog-item').css({'width': '30%', 'margin-left': '0px', 'padding': '20px'});
                 }, 800);
+                
+                
                 $('span.lft-mrkr').mouseover(function(){
                 $('body').removeClass('collaps-side');
                 $('span.lft-mrkr').fadeOut(500);
+                $('a#blog-more').trigger('click');
                 $('.blog-item').css({'width': '35%', 'margin-left': '5%', 'padding': '5px'});
                 $('.blog-post').css({'margin-left': '0.5%'});
-                $('a#blog-more').trigger('click');
                 });
        
                 $('.inner-wrapper i').click(function(){
                 $('body').addClass('collaps-side');
                 $('span.lft-mrkr').show();
-                $('.blog-item').css({'width': '30%', 'margin-left': '0px', 'padding': '20px'});
                 $('a#blog-more').trigger('click');
+                $('.blog-item').css({'width': '30%', 'margin-left': '0px', 'padding': '20px'});
                 });
        });
 
@@ -1619,7 +1621,7 @@ $gmap.gmap3({
   },
   overlay:{
     //Edit following line and enter your own address
-    address: "Telangana Secretariat",
+    address: "Telangana Secretariat, Central Secretariat, Khairatabad, Hyderabad, Telangana",
     options:{
       content: '<div id="map-marker"><i class="fa fa-map-marker"></i></div>',
       offset:{
