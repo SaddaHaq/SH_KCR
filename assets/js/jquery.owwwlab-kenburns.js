@@ -33,6 +33,7 @@ if ( typeof Object.create !== 'function'  ){ // browser dose not support Object.
                 self.list[i] = {
                     imgSrc : self.options.images[i],
                     loaded : false
+                    
                 }
             };
 
@@ -85,7 +86,6 @@ if ( typeof Object.create !== 'function'  ){ // browser dose not support Object.
             core();
 
             var interval = self.timing.iterate*1000;
-            
             setInterval(function(){
                 core();
             }, interval);
@@ -93,7 +93,6 @@ if ( typeof Object.create !== 'function'  ){ // browser dose not support Object.
         },
 
         kbIt: function(){
-
             var self = this,
                 current = self.currentSlide,
                 z = self.options.zoom,
@@ -109,14 +108,28 @@ if ( typeof Object.create !== 'function'  ){ // browser dose not support Object.
 
             if ( self.zoomPrefix){
                 //zoomin
+                
                 anim.to($img1, dt.zoomTime, {scaleX:z, scaleY:z, ease: Linear.easeNone},'-='+dt.fadeTime);
             }else{
                 //zoomout
                 anim.from($img1, dt.zoomTime, {scaleX:z, scaleY:z, ease: Linear.easeNone},'-='+dt.fadeTime);
-            }
+            }  
             
-            anim.to($w1, dt.fadeTime,{autoAlpha:0}, '-='+dt.fadeTime );
-            
+               var mns = current-1;
+               if(mns == -1){
+               $('#top-mnu section').find('.i-3').children('.out-dmnd').removeClass('dmnd-brdr');
+               $('#top-mnu').find('.diamond.i-3').children('.in-dmnd').removeClass('wht-bdr');
+               $('#top-mnu').find('.diamond.i-3').children('.out-dmnd').removeClass('dmnd_beclr');
+              }else{
+               $('#top-mnu section').find('.i-'+mns).children('.out-dmnd').removeClass('dmnd-brdr');
+               $('#top-mnu').find('.diamond.i-'+mns).children('.in-dmnd').removeClass('wht-bdr');
+               $('#top-mnu').find('.diamond.i-'+mns).children('.out-dmnd').removeClass('dmnd_beclr');
+              }
+               var cls = "i-"+current;
+               var mnu = $('#top-mnu section').find('.'+cls).children('.out-dmnd').addClass('dmnd-brdr');
+               $('#top-mnu').find('.diamond.'+cls).children('.out-dmnd').addClass('dmnd_beclr');
+               $('#top-mnu').find('.diamond.'+cls).children('.in-dmnd').addClass('wht-bdr');
+               anim.to($w1, dt.fadeTime,{autoAlpha:0}, '-='+dt.fadeTime);
 
         },
 

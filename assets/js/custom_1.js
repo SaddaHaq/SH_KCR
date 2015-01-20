@@ -649,36 +649,34 @@ var as,audioBackground = {
 
 /* home kenburn slider
 ----------------------------------------------*/
-var kbs,kenburn = {
-  settings : {
-    viewport : $('#kb-container')
-  },
-  init :function(){
-    kbs = this.settings;
-    this.bindUIActions();
-    this.buildKenburn();
-    
-  },
-  buildKenburn : function(){
-    var kb = kbs.viewport.kenburnIt({
-      images : [
-          "assets/img/home/22.jpg",
-          "assets/img/home/21.jpg",
-          "assets/img/home/23.jpg",
-          "assets/img/home/27.jpg",
-          "assets/img/home/29.jpg"
-      ],
-      zoom: 1.2,
-      duration: 10
-    });
-  },
-  bindUIActions : function(){
-    
-  },
-  updateContent : function(){
-    
-  }
-}
+//var kbs,kenburn = {
+//  settings : {
+//    viewport : $('#kb-container')
+//  },
+//  init :function(){
+//    kbs = this.settings;
+//    this.bindUIActions();
+//    this.buildKenburn();
+//  },
+//  buildKenburn : function(){
+//    var kb = kbs.viewport.kenburnIt({
+//      images : [
+//          "assets/img/home/22.jpg",
+//          "assets/img/home/21.jpg",
+//          "assets/img/home/23.jpg",
+//          "assets/img/home/27.jpg"
+//      ],
+//      zoom: 1.2,
+//      duration: 10
+//    });
+//  },
+//  bindUIActions : function(){
+//    
+//  },
+//  updateContent : function(){
+//    
+//  }
+//}
 
 
 /* home video background
@@ -1062,7 +1060,7 @@ var ups, upstreamPortfolio = {
       $.ajax({
         type:'GET',
         url:desUrl,
-        datatype:'html',
+        atype:'html',
         success:function(data){
           self.ajaxSuccess(data,video);
         }

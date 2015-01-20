@@ -1,7 +1,7 @@
 
 /* home kenburn slider
  ----------------------------------------------*/
-
+   
 var kbs, kenburn = {
   settings: {
     viewport: $('#kb-container')
@@ -10,16 +10,14 @@ var kbs, kenburn = {
     kbs = this.settings;
     this.bindUIActions();
     this.buildKenburn();
-
   },
   buildKenburn: function () {
-    var kb = kbs.viewport.kenburnIt({
+    kbs.viewport.kenburnIt({
       images: [
-        "assets/img/home/22.jpg",
-        "assets/img/home/21.jpg",
-        "assets/img/home/23.jpg",
-        "assets/img/home/27.jpg",
-        "assets/img/home/29.jpg"
+        "assets/img/home/0.jpg",
+        "assets/img/home/1.jpg",
+        "assets/img/home/2.jpg",
+        "assets/img/home/3.jpg"
       ],
       zoom: 1.2,
       duration: 10
@@ -32,20 +30,39 @@ var kbs, kenburn = {
 
   }
 };
-
+$('body').click(function(){
+    
+});
 $(document).ready(function () {
+    
 // in this event changed ID to CLASS 
   $('.shw-ad-mnu').on('click', function (e) {
     e.preventDefault();
     var id = $(this).data('id');
       $('#' +id).addClass('in').siblings('#top-mnu').removeClass('in');
       $('.men-title').html($(this).data('title'));
+      var img = $(this).data('img');
+      kbs.viewport.kenburnIt({
+      images: [
+        "assets/img/home/"+img+".jpg",
+      ],
+      zoom: 1,
+      duration: 10
+    });
+    $('#top-mnu section').find('.diamond').children('.out-dmnd').removeClass('dmnd-brdr');
   });
 
   $('.shw-top-mnu').on('click', function () {
-      
-      
-//      alert($(this).parents('div').attr('id'));
+    kbs.viewport.kenburnIt({
+      images: [
+        "assets/img/home/0.jpg",
+        "assets/img/home/1.jpg",
+        "assets/img/home/2.jpg",
+        "assets/img/home/3.jpg"
+      ],
+      zoom: 1.2,
+      duration: 10
+    });
     $('.ad-mnu').removeClass('in').siblings('#top-mnu').addClass('in');
   });
   

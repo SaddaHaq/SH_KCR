@@ -839,8 +839,9 @@ ul#socialicons li:focus a, ul.socialicons li:focus a {
     color: #fff;
     font-weight: 300;
     margin: 32px 0 10px 0;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.2),0 3px 25px rgba(0,0,0,0.3);
     /*-webkit-text-stroke: 0.5px;*/
-}
+}   
 #hello-contents h2{
     font-size: 20px;
     font-weight: 200;
@@ -2601,6 +2602,11 @@ ul.featured-hex li .hex-des a:hover{
     position: absolute;
     left : 20px;
 }
+
+.dmnd-brdr{
+    border : 6px solid #F74895 !important;
+   
+}
 #top-mnu .in-dmnd {
     /*content: url('/assets/img/logo_kcr1.png');*/
     width : 10px;
@@ -2634,6 +2640,10 @@ ul.featured-hex li .hex-des a:hover{
 #top-mnu .diamond:hover .out-dmnd {
     background: #232931;
 }
+
+.dmnd_beclr{
+    background: #232931 !important;
+}
 #top-mnu .diamond:hover .in-dmnd-img{
     width: 135px;
     height: 135px;
@@ -2653,6 +2663,15 @@ ul.featured-hex li .hex-des a:hover{
     left : 26px;
     opacity: 1;
     visibility: visible;
+}
+
+.wht-bdr{
+    width : 88px !important;
+    height : 88px !important;
+    top : 6px !important;
+    left : 26px !important;
+    opacity: 1 !important;
+    visibility: visible !important;
 }
 #top-mnu .diamond .txt {
     text-align: center;
