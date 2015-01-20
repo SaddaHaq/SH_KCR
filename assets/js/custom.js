@@ -34,7 +34,7 @@ $('body').click(function(){
     
 });
 $(document).ready(function () {
-    
+   
 // in this event changed ID to CLASS 
   $('.shw-ad-mnu').on('click', function (e) {
     e.preventDefault();

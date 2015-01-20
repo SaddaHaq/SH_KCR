@@ -130,6 +130,11 @@ if ( typeof Object.create !== 'function'  ){ // browser dose not support Object.
                $('#top-mnu').find('.diamond.'+cls).children('.out-dmnd').addClass('dmnd_beclr');
                $('#top-mnu').find('.diamond.'+cls).children('.in-dmnd').addClass('wht-bdr');
                anim.to($w1, dt.fadeTime,{autoAlpha:0}, '-='+dt.fadeTime);
+               var strp = $('#top-mnu section').find('.'+cls).data('title');
+               $('#hello-contents').html("<h1 class='fadeInRight animated'>"+strp+"</h1><br><h2 class='fadeInLeft animated'>Cheif minister</h2>");
+//               $('#hello-contents h1').html('');
+//               $('#hello-contents h2').text('Cheif minister');
+//               $('#hello-contents h2').addClass('animated');   
 
         },
 

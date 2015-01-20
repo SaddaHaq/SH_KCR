@@ -961,6 +961,10 @@ ul#socialicons li:focus a, ul.socialicons li:focus a {
     color:#fff;
     margin:30px 0 15px 0;
 }
+#about-content-wrapper p{
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
 
 ul.list-items{
     margin:0 0 8px 0;
