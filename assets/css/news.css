@@ -1,3 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: 'Quattrocento', serif;
+    background : #FAFAFA;
+    
+}
+
+.scrl {
+    font-size: 1.142em;
+    background : #39424e;
+    color : #FFF;
+    height : 48px;
+    text-decoration: none;
+    position: absolute;
+    bottom : 0;
+    left : 0;
+    line-height: 48px;
+    width : 100%;
+    text-align: center;
+}
+.scrl:before {
+    content : '';
+    width : 90px;
+    height : 45px;
+    position: absolute;
+    border-radius: 90px 90px 0 0;
+    -moz-border-radius: 90px 90px 0 0;
+    -webkit-border-radius: 90px 90px 0 0;
+    background : #39424e;
+    left : 50%;
+    margin-left: -45px;
+    top : -32px;
+}
+
+.m-hd {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 4em;
+    margin : 0 0 8px;
+    line-height: 1.4em;
+}
+
+.dsc {
+    font-size: 1.2857em;
+    line-height : 1.6em;
+}
+.clearfix {
+    clear: both;
+}
+
+.intro {
+    height : 100%;
+    width : 100%;
+    position: relative;
+}
+
 .intro section {
     text-align: center;
     width : 100%;
@@ -13,13 +73,9 @@
     height : auto;
     text-align: center;
 }
+
 #nws-intro {
     top : 75%;
-    background-image: url('../images/thub_ktr.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    animation: none;
-    -webkit-animation: none;
 }
 #nws-intro .bg {
     background : rgba(255,255,255,.5);
