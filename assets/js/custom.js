@@ -1,7 +1,6 @@
 
 /* home kenburn slider
  ----------------------------------------------*/
-   
 var kbs, kenburn = {
   settings: {
     viewport: $('#kb-container')
@@ -48,7 +47,6 @@ $(document).ready(function () {
       duration: 10
     });
     $('#top-mnu section').find('.diamond').children('.out-dmnd').removeClass('dmnd-brdr');
-    
   });
 
   var top_menu = $('.shw-top-mnu').on('click', function () {

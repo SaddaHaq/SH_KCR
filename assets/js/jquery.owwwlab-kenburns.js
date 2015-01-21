@@ -64,7 +64,6 @@ if ( typeof Object.create !== 'function'  ){ // browser dose not support Object.
 
             
             var self = this;
-
             //Images
             for (var i = 0; i <= self.options.images.length; i++) {
                 self.fetchImg(i);
@@ -114,8 +113,7 @@ if ( typeof Object.create !== 'function'  ){ // browser dose not support Object.
                 //zoomout
                 anim.from($img1, dt.zoomTime, {scaleX:z, scaleY:z, ease: Linear.easeNone},'-='+dt.fadeTime);
             }  
-            console.log(self);
-               var mns = current-1;
+            var mns = current-1;
                if(mns == -1){
                $('#top-mnu section').find('.i-3').children('.out-dmnd').removeClass('dmnd-brdr');
                $('#top-mnu').find('.diamond.i-3').children('.in-dmnd').removeClass('wht-bdr');
