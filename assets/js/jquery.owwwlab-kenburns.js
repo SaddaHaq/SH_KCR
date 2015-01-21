@@ -114,7 +114,7 @@ if ( typeof Object.create !== 'function'  ){ // browser dose not support Object.
                 //zoomout
                 anim.from($img1, dt.zoomTime, {scaleX:z, scaleY:z, ease: Linear.easeNone},'-='+dt.fadeTime);
             }  
-            
+            console.log(self);
                var mns = current-1;
                if(mns == -1){
                $('#top-mnu section').find('.i-3').children('.out-dmnd').removeClass('dmnd-brdr');
@@ -129,13 +129,10 @@ if ( typeof Object.create !== 'function'  ){ // browser dose not support Object.
                var mnu = $('#top-mnu section').find('.'+cls).children('.out-dmnd').addClass('dmnd-brdr');
                $('#top-mnu').find('.diamond.'+cls).children('.out-dmnd').addClass('dmnd_beclr');
                $('#top-mnu').find('.diamond.'+cls).children('.in-dmnd').addClass('wht-bdr');
-               anim.to($w1, dt.fadeTime,{autoAlpha:0}, '-='+dt.fadeTime);
+               
                var strp = $('#top-mnu section').find('.'+cls).data('title');
                $('#hello-contents').html("<h1 class='fadeInRight animated'>"+strp+"</h1><br><h2 class='fadeInLeft animated'>Cheif minister</h2>");
-//               $('#hello-contents h1').html('');
-//               $('#hello-contents h2').text('Cheif minister');
-//               $('#hello-contents h2').addClass('animated');   
-
+               anim.to($w1, dt.fadeTime,{autoAlpha:0}, '-='+dt.fadeTime);
         },
 
         fetchImg: function(index){
@@ -209,14 +206,12 @@ if ( typeof Object.create !== 'function'  ){ // browser dose not support Object.
             $(window).resize(function(){
                 self.checkSizeFlag=1;
             });
-            
         },
         reset : function(index){
             TweenMax.to(this.list[index].img, 0,{scaleY:1,scaleX:1});
         },
 
         calcTime: function(){
-            
             var time = this.options.duration;
             
             this.timing = {
@@ -259,7 +254,6 @@ if ( typeof Object.create !== 'function'  ){ // browser dose not support Object.
         }
 
     }
-
     
     $.fn.kenburnIt = function( options ) {
         return this.each(function(){
@@ -279,5 +273,4 @@ if ( typeof Object.create !== 'function'  ){ // browser dose not support Object.
             return currentSlide;
         }
     };
-
 })(jQuery, window, document);

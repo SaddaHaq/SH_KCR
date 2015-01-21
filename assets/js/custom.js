@@ -33,12 +33,13 @@ var kbs, kenburn = {
 
 $(document).ready(function () {
 // in this event changed ID to CLASS 
-  $('.shw-ad-mnu').on('click', function (e) {
+  var shw_admnu = $('.shw-ad-mnu').on('click', function (e) {
     e.preventDefault();
     var id = $(this).data('id');
       $('#' +id).addClass('in').siblings('#top-mnu').removeClass('in');
       $('.men-title').html($(this).data('title'));
       var img = $(this).data('img');
+      $('#kb-container').html('');
       kbs.viewport.kenburnIt({
       images: [
         "assets/img/home/"+img+".jpg",
@@ -47,9 +48,11 @@ $(document).ready(function () {
       duration: 10
     });
     $('#top-mnu section').find('.diamond').children('.out-dmnd').removeClass('dmnd-brdr');
+    
   });
 
-  $('.shw-top-mnu').on('click', function () {
+  var top_menu = $('.shw-top-mnu').on('click', function () {
+      $('#kb-container').html('');
     kbs.viewport.kenburnIt({
       images: [
         "assets/img/home/0.jpg",
