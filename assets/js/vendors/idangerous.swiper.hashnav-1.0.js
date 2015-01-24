@@ -19,7 +19,7 @@ Swiper.prototype.plugins.hashNav = function(swiper, params) {
 	function updateHash(internal){
 		var newHash = swiper.activeSlide().getAttribute('data-hash')
 		if (!newHash) newHash = '';
-		document.location.hash = newHash;
+//		document.location.hash = newHash;
 	}
 	function swipeToHash(e){
 		var hash = document.location.hash;
