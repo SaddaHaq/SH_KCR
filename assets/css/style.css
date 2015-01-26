@@ -1866,11 +1866,11 @@ padding: 20px 0px 0px 0px;
 }
 .vertical-portfolio .portfolio-item:nth-child(odd) .item-image{
     left:33.33%;
-    margin-top:32px;
+    /*margin-top:32px;*/
 }
 
 .vertical-portfolio .portfolio-item:nth-child(even) .item-image{
-    margin-top:32px;
+    /*margin-top:32px;*/
     right:2.66%;
 }
 
@@ -3132,4 +3132,15 @@ line-height: 0;
 border-bottom: 3px solid #F74895;
 padding: 22px;
 
+}
+.gl-dm{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 10001;
+}
+.gl-dm img{
+margin-left: 48%;
+margin-top: 25%;
 }

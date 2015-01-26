@@ -8,6 +8,6 @@ define('APP_PATH', dirname(__FILE__).'/');
 
 $list = scandir($path);
 
-var_dump($list);
+echo (json_encode($list));
 
 ?>
