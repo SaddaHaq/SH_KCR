@@ -103,6 +103,8 @@ $(document).ready(function () {
     $('.gal-ttl h3').text(s_ttl);
     if (window.location.hash) {
         var fl = $('.lrg-imgs').find('.gal3-item');
+        $('.item-wrapper a').attr('title', s_ttl);
+        $('title').text(s_ttl);
         setTimeout(function () {
                     $('.gl-dm').fadeOut('slow');
                 }, 1000);
