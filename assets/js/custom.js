@@ -171,4 +171,29 @@ $(document).ready(function () {
     img.addClass('in');
   }
 
+$('#cnt-send').click(function(e){
+    e.preventDefault();
+    var mail = $('#contact-email').val();
+    var name = $('#name').val();
+    var subject = $('#subject').val();
+    var message = $('#message').val();
+    
+    $.ajax({
+        url: '/images.php',
+        type:'post',
+        data:{
+            mail: mail,
+            name: name,
+            sub: subject,
+            msg: message
+        },
+        success: function(d){
+            alert('We Received your Message');
+        }
+    })
+
+});
+
+
+
 });
