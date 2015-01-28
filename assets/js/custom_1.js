@@ -32,14 +32,17 @@ $(document).ready(function(){
               $('body').addClass('collaps-side');
               $('a#blog-more').trigger('click');
               $('.blog-item').css({'width': '30%', 'margin-left': '0px', 'padding': '20px'});
+              $('#al-tls').trigger('click');
                 }, 800);
                 
                 
                 $('span.lft-mrkr').mouseover(function(){
                 $('body').removeClass('collaps-side');
                 $('span.lft-mrkr').fadeOut(500);
-                $('a#blog-more').trigger('click');
+                
+                $('#nw-tls').trigger('click');
                 $('.blog-item').css({'width': '35%', 'margin-left': '5%', 'padding': '5px'});
+                $('#al-tls').trigger('click');
                 $('.blog-post').css({'margin-left': '0.5%'});
                 });
        
@@ -48,6 +51,7 @@ $(document).ready(function(){
                 $('span.lft-mrkr').show();
                 $('a#blog-more').trigger('click');
                 $('.blog-item').css({'width': '30%', 'margin-left': '0px', 'padding': '20px'});
+                $('#al-tls').trigger('click')
                 });
        });
 
@@ -1507,9 +1511,9 @@ var bs,blog = {
     //
     bs.blogMore.on('click',function(e){
         e.preventDefault();
-        var $newItems = $('<div class="blog-item diary expo daily hidden"><div class="inside"><img src="../assets/img/blog/posts/thumb/the_cm/01.jpg" alt="image" class="img-responsive"><div class="blog-item-contents"><h3><a href="/cm1.html" class="upstream-post">Singareni Collieries returns handsome dividend to the State on its profits.</a></h3><div class="post-meta"><div class="post-author"><i class="fa fa-edit"></i>Edit</div><div class="post-date"><i class="fa fa-calendar"></i>2015/1/20</div><div class="post-cat"><i class="fa fa-folder"></i>Folder</div></div><div class="post-intro">The Telangana government is the largest share holder of the collieries with a 51% in the project. The companys management came down to meet the Chief Minister and hand him the cheque for the States dividend on the proits that the company made in 2013-14.</div><div class="post-more"><a href="/cm1.html" class="upstream-post">read more</a></div></div></div></div><div class="blog-item diary expo"><div class="inside"><img src="../assets/img/blog/posts/thumb/the_cm/02.jpg" alt="image" class="img-responsive"><div class="blog-item-contents"><h3><a href="/cm3.html" class="upstream-post">Hyderbad will host World Congress on Information Technology in February 2018.</a></h3><div class="post-meta"><div class="post-author"><i class="fa fa-edit"></i>Edit</div><div class="post-date"><i class="fa fa-calendar"></i>2015/1/20</div><div class="post-cat"><i class="fa fa-folder"></i>Folder</div></div><div class="post-intro">Hon. CM KCR has agreed to the request of Sri. R. Chandrashekhar, President NASSCOM and Sri BVR Mohan Reddy, Vice Chairman NASSCOM to host the ‘World Congress on Information Technology’ (WCIT) in Hyderabad in February 2018.</div><div class="post-more"><a href="/cm3.html" class="upstream-post">read more</a></div></div></div></div>');
+        var $newItems = $('<div class="blog-item diary  hidden"><div class="inside"><img src="../assets/img/blog/posts/thumb/the_cm/01.jpg" alt="image" class="img-responsive"><div class="blog-item-contents"><h3><a href="/cm1.html" class="upstream-post">Singareni Collieries returns handsome dividend to the State on its profits.</a></h3><div class="post-meta"><div class="post-author"><i class="fa fa-edit"></i>Edit</div><div class="post-date"><i class="fa fa-calendar"></i>2015/1/20</div><div class="post-cat"><i class="fa fa-folder"></i>Folder</div></div><div class="post-intro">The Telangana government is the largest share holder of the collieries with a 51% in the project. The companys management came down to meet the Chief Minister and hand him the cheque for the States dividend on the proits that the company made in 2013-14.</div><div class="post-more"><a href="/cm1.html" class="upstream-post">read more</a></div></div></div></div><div class="blog-item diary expo"><div class="inside"><img src="../assets/img/blog/posts/thumb/the_cm/02.jpg" alt="image" class="img-responsive"><div class="blog-item-contents"><h3><a href="/cm3.html" class="upstream-post">Hyderbad will host World Congress on Information Technology in February 2018.</a></h3><div class="post-meta"><div class="post-author"><i class="fa fa-edit"></i>Edit</div><div class="post-date"><i class="fa fa-calendar"></i>2015/1/20</div><div class="post-cat"><i class="fa fa-folder"></i>Folder</div></div><div class="post-intro">Hon. CM KCR has agreed to the request of Sri. R. Chandrashekhar, President NASSCOM and Sri BVR Mohan Reddy, Vice Chairman NASSCOM to host the ‘World Congress on Information Technology’ (WCIT) in Hyderabad in February 2018.</div><div class="post-more"><a href="/cm3.html" class="upstream-post">read more</a></div></div></div></div>');
         bs.isotopeContainer.isotope( 'insert', $newItems, function(){
-          bs.isotopeContainer.isotope( 'reLayout' );
+        bs.isotopeContainer.isotope( 'reLayout' );
         });
         
         return false;
@@ -1526,7 +1530,6 @@ var bs,blog = {
         }
       });
       $(".single-post").load(post_url);
-
     });
     
     $("body").on('click','.upstreamclose',function(e){
