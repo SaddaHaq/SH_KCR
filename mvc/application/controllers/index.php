@@ -21,6 +21,16 @@ class Index_Controller extends Controller{
         }
         break;
       case 'the_leader':
+        switch($params[1]){
+          case 'initiatives':
+          case 'albums':
+          case 'news':
+            $this -> view -> render('the_leader/'.$params[1]);
+            break;
+          default:
+            echo 'Page not found';
+            break;
+        }
         break;
       case 'the_activist':
         break;
