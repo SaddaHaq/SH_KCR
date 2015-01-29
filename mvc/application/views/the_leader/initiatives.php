@@ -1,3 +1,4 @@
+<body>
 <?php require APP_PATH.'/layout/submenu_theleader.php'; ?>        
         <!--Main wrapper-->
         <div id="wrapper">

@@ -1,3 +1,4 @@
+<body>
 <?php require APP_PATH.'/layout/submenu_theleader.php'; ?>        
 <!--Blog--> 
         <div class="sub-page swiper-slide" data-hash="blog">
