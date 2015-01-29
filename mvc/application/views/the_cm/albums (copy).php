@@ -21,15 +21,15 @@
                     <ul class="gamma-gallery">
 
                         
-<!--                        <li>
+                        <li>
                             <div data-alt="img03" data-description="<h3>KCR</h3>" data-max-width="1800" data-max-height="1350">
                                 <div data-src="../assets/img/gallery/the_cm/KCR-visit-warangal/KCR-visit-warangal-4.jpg" data-min-width="200"></div>
                                 <noscript>
                                 <img src="images/xsmall/3.jpg" alt="img03"/>
                                 </noscript>
                             </div>
-                        </li>
-                        <li>
+                        </li><!--
+-->                        <li>
                             <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
                                 <div data-src="../assets/img/gallery/the_cm/KCR-visit-warangal/KCR-visit-warangal-5.jpg" data-min-width="200"></div>
                                 <noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript>
@@ -66,7 +66,7 @@
                                 <img src="images/xsmall/3.jpg" alt="img03"/>
                                 </noscript>
                             </div>
-                        </li>
+                        </li><!--
                         <li>
                             <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
                                 <div data-src="../assets/img/gallery/the_cm/KCR-visit-warangal/KCR-visit-warangal-3.jpg" data-min-width="200"></div>

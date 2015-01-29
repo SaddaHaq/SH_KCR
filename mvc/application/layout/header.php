@@ -9,15 +9,15 @@
         <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/vendors/font-awesome.min.css"> 
         <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/vendors/bootstrap.css" >
         <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/diamonds.css">
         <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/skins/skin3/style.css">
         <link rel='stylesheet' type='text/css' href='<?=DOMAIN?>/assets/css/font-awesome5152.css?ver=1.0'/>
         <link rel='stylesheet' type='text/css' href='<?=DOMAIN?>/assets/css/animate5152.css'/>
         <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/vendors/blueimp-gallery.css">
-
         <!--/CSS styles-->
-
+        
         <!-- Mobile Specific Metas -->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui" />
         <!-- /Mobile Specific Metas --> 

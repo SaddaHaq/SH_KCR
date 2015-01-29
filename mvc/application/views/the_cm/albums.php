@@ -78,4 +78,4 @@
               autoRedraw: true, // Auto redraw diamonds when it detects resizing.
               itemSelector: ".item" // the css selector to use to select diamonds-items.
             });
-        </script>
+        </script>        
