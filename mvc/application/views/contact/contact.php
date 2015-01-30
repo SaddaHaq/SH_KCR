@@ -37,7 +37,7 @@
 }(document, 'script', 'facebook-jssdk'));</script>        
     </head>
     <body>
-        <a id="main-mnu" class="main-mnu" href="#"><img src="assets/img/logo_kcr.png" width="100" height="100" /></a>
+        <!--<a id="main-mnu" class="main-mnu" href="#"><img src="assets/img/logo_kcr.png" width="100" height="100" /></a>-->
                 <div id="ad-mnu" class="ad-mnu transition">
                     <h3 class="men-title">Gallery</h3>
                     <section>
@@ -78,7 +78,7 @@
             <div id="contact-left">
                 <div class="inner-wrapper scrollbar">
                     <div class="cnt-hdng">
-                        <h1>Home</h1>
+                        <a href="/"><h1>Home</h1></a>
                         <a href="albums"><h1>Gallery</h1></a>
                     </div>
                     <div id="contact">
@@ -173,9 +173,9 @@
                             <h2>TELANGANA Secretariat</h2>
                             <p>C Block Secretariat, Opposite Lumbini Park,</p>
                             <p>Hyderabad – 500063 Telangana</p>
-                            <p><i class="icon-home"></i> CM office Telangana</p>
+<!--                            <p><i class="icon-home"></i> CM office Telangana</p>
                             <p><i class="icon-phone-sign"></i> 040 22335566</p>
-                            <p><i class="icon-inbox"></i> cm@ts.gov.in</p>
+                            <p><i class="icon-inbox"></i> cm@ts.gov.in</p>-->
                             <!--<h3>Connect</h3>-->
 <!--                            <div class="scl">
                                 <a href="https://www.facebook.com/TelanganaCMO" target="_blank">

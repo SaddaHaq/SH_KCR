@@ -26,8 +26,8 @@ $(document).ready(function () {
                                 '<noscript>'+
                                 '<img src="assets/img/albums/'+data[i]+'/albm-img.jpg"/></noscript></div></li>');
        };
-       $('.main header').find('h1').text(s_ttl);
-       $('title').text(s_ttl);
+//       $('.main header').find('h1').text(s_ttl);
+//       $('title').text(s_ttl);
        
        $(function () {
 
@@ -110,8 +110,8 @@ if(path[1] == 'gallery'){
                                 '<noscript>'+
                                 '<img src="assets/img/albums/'+id+'/'+data[i]+'"/></noscript></div></li>');
        };
-       $('.main header').find('h1').text(s_ttl);
-       $('title').text(s_ttl);
+       $('.main header').find('h1').text(ttl);
+//       $('title').text(s_ttl);
        
        $(function () {
 
@@ -168,63 +168,5 @@ if(path[1] == 'gallery'){
     
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-    var dir = '/assets/img/gallery/' + path + '/' + id + '/';
-//    var s_ttl = id.replace(/-/g, ' ');
-    $('.img-responsive').attr('src', '../assets/img/gallery/' + path + '/' + id + '/page-side-img.jpg');
-    $('.gal-ttl h3').text(s_ttl);
-    if (window.location.hash) {
-        var fl = $('.lrg-imgs').find('.gal3-item');
-        $('.item-wrapper a').attr('title', s_ttl);
-        $('title').text(s_ttl);
-        setTimeout(function () {
-                    $('.gl-dm').fadeOut('slow');
-                }, 1000);
-        fl.each(function () {
-            var img = '../assets/img/gallery/' + path + '/' + id + '/' + id + '-' + i + '.jpg';
-            $(this).find('.item-wrapper a').attr('href', img);
-            $(this).find('.item-wrapper .lazy').attr('data-original', img);
-            i++;
-        });
-
-        var tmb = $('.gal3-thumb-carousel').find('img');
-        var l = 1;
-        tmb.each(function () {
-            var tmb = '../assets/img/gallery/' + path + '/' + id + '/' + id + '-' + l + '.jpg';
-            $(this).attr('src', tmb)
-            l++;
-        });
-
-
-    }
-//    else {
-//
-//    }
-
-
-//    for(i=1; i<18; i++){
-//           $('.lrg-imgs').append('<div class="gal3-item"><div class="item-wrapper">'+
-//                     '<a href="../assets/img/gallery/'+path+'/'+id+'/'+i+'.jpg" title="Some Title">'+
-//                     '<img class="lazy" src="../assets/img/blueimp-gallery/loading.gif"  data-original="../assets/img/gallery/'+path+'/'+id+'/'+i+'.jpg" style="height: 100%; width: auto; cursor: -webkit-zoom-in; display: inline;"/>'+
-//                     '</a></div></div>');
-//                      $('.gll-tmb').append('<img src="../assets/img/gallery/'+path+'/'+id+'/'+i+'.jpg" alt="img" data-index="'+i+'" style="width: 130px;"/>')  
-//             
-//         }
-
-
-
-
-
 
 });
