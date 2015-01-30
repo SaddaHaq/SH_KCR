@@ -163,6 +163,9 @@ if(path[1] == 'gallery'){
                 }
 
             });
+            setTimeout(function () {
+                  $('.a-lod').fadeOut('slow');
+                }, 1000);
    }
     });
     

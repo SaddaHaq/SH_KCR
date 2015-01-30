@@ -5,6 +5,7 @@
         <!--[if lte IE 7]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
     </head>
     <body>
+        <div class="a-lod"><img src="/assets/img/load.gif"/></div>
         <div class="container">
             <div class="main">
                 <header class="clearfix">
