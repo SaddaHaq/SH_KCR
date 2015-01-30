@@ -32,12 +32,13 @@ class Index_Controller extends Controller{
             break;
         }
         break;
-      case 'the_activist':
+      case 'the_visionary':
         switch($params[1]){
+          case 'initiatives':
           case 'history':
           case 'albums':
           case 'news':
-            $this -> view -> render('the_activist/'.$params[1]);
+            $this -> view -> render('the_visionary/'.$params[1]);
             break;
           default:
             echo 'Page not found';

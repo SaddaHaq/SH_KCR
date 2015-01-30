@@ -12,17 +12,17 @@
                     <div class="txt">
                     </div>
                 </div>
-                <a class="diamond transition shw-ad-mnu i-2" href="the_cm/initiatives.html" data-title="KCR - The CM" data-id="the_cm" data-img="2">
+                <a class="diamond transition shw-ad-mnu i-2" href="the_cm/initiatives" data-title="KCR - The CM" data-id="the_cm" data-img="2">
                     <div class="out-dmnd"></div>
                     <div class="in-dmnd transition in"></div>
                     <div class="txt">The<br>CM</div>
                 </a>
-                <a class="diamond transition shw-ad-mnu i-1" href="the_leader/initiatives.html" data-title="KCR - The Leader" data-id="the_person" data-img="1">
+                <a class="diamond transition shw-ad-mnu i-1" href="the_leader/initiatives" data-title="KCR - The Leader" data-id="the_person" data-img="1">
                     <div class="out-dmnd"></div>
                     <div class="in-dmnd transition in"></div>
                     <div class="txt">The<br>Leader</div>
                 </a>
-                <a class="diamond transition shw-ad-mnu i-0" href="the_activist/initiatives.html" data-title="KCR - The Visionary" data-id="the_actvst" data-img="0">
+                <a class="diamond transition shw-ad-mnu i-0" href="the_visionary/initiatives" data-title="KCR - The Visionary" data-id="the_actvst" data-img="0">
                     <div class="out-dmnd"></div>
                     <div class="in-dmnd transition"></div>
                     <div class="txt">The<br>Visionary</div>

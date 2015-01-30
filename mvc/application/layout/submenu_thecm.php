@@ -1,4 +1,4 @@
-<a id="main-mnu" class="main-mnu" href="#"><img src="<?=DOMAIN?>/assets/img/logo_kcr.png" width="100" height="100" /></a>
+<a id="main-mnu" class="main-mnu" href="/"><img src="<?=DOMAIN?>/assets/img/logo_kcr.png" width="100" height="100" /></a>
         <div id="ad-mnu" class="ad-mnu transition">
             <h3 class="men-title">The CM-Initiatives</h3>
             <section>
