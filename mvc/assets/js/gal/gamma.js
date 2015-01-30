@@ -106,14 +106,12 @@ String.prototype.queryStringToJSON = String.prototype.queryStringToJSON || funct
 $.extend( $.expr[':'], {
 
 	inViewport : function( el ) {
-
 		var scrollTop = ( document.documentElement.scrollTop || document.body.scrollTop ),
 			elOffsetTop = $( el ).offset().top,
 			elH = $( el ).height()
 			winH = ( window.innerHeight && window.innerHeight < $( window ).height() ) ? window.innerHeight : $( window ).height();
 
 		return ( elOffsetTop + elH ) > scrollTop && elOffsetTop < ( scrollTop + winH );
-
 	}
 
 });
@@ -377,7 +375,7 @@ var Gamma = (function() {
 //                                        path = path[1]; 
                                         var tmp = '/the_cm/gallery.html'+'#'+hash+'?id='
 //                                        var tmp = '/the_cm/gallery.html'+'#'+hash+'?id='
-				History.pushState(null, null, '?id=' + id);
+//				History.pushState(null, null, '?id=' + id);
                                 
 //                                History.pushState( null, null, url('protocol') + '://' + url('hostname') + url('path')+'?id=' + id );
 			
@@ -405,16 +403,16 @@ var Gamma = (function() {
 					sources = _getImgSources( $picEl ),
 					source = _chooseImgSource( sources, $item.outerWidth( true ) ),
 					description = $picEl.data( 'description' );
-
+                                        var hyprlnk = $picEl.data( 'url' );
 				// data is saved in the <li> element
-				$item.data( {
+				$item.data({
 					description : description,
 					source : sources,
 					maxwidth : $picEl.data( 'maxWidth' ),
 					maxheight : $picEl.data( 'maxHeight' )
-				} );
+				});
 
-				$( '<div/>' ).addClass( 'gamma-description' ).html( description ).insertAfter( $picEl );
+				$( '<a href='+hyprlnk+'></a>' ).addClass( 'gamma-description' ).html( description ).insertAfter( $picEl );
 
 				$( '<img/>' ).attr( {
 					alt : $picEl.data( 'alt' ),
@@ -860,8 +858,8 @@ var Gamma = (function() {
 			if( !Gamma.svDescription ) {
 				
 				Gamma.svDescription = $( '<div/>' )
-										.addClass( 'gamma-description' )
-										.appendTo( Gamma.singleview ).wrap( '<div class="gamma-description-wrapper"></div>' );
+				.addClass( 'gamma-description' )
+				.appendTo( Gamma.singleview ).wrap( '<div class="gamma-description-wrapperh"></div>' );
 
 				if( Gamma.supportTransitions ) {
 

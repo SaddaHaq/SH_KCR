@@ -58,7 +58,7 @@ a {
 	line-height: 38px;
 	margin: 0;
 	font-weight: 700;
-	color: #333;
+	color: #333 !important;
 	float: left;
         text-transform: capitalize;
 }
@@ -161,5 +161,6 @@ a {
 }
 
 .loadmore:hover {
-	background: #333;
+	color: #333;
+	background: #F74895;
 }

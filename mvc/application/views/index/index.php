@@ -1,3 +1,4 @@
+<link rel='stylesheet' type='text/css' href='<?=DOMAIN?>/assets/css/animate5152.css'/>
 <body>
 
         <!--Main wrapper-->
@@ -11,36 +12,26 @@
                     <div class="txt">
                     </div>
                 </div>
-                <div class="diamond transition shw-ad-mnu i-2" data-title="KCR - The CM" data-id="ad-mnu" data-img="2">
+                <a class="diamond transition shw-ad-mnu i-2" href="the_cm/initiatives.html" data-title="KCR - The CM" data-id="the_cm" data-img="2">
                     <div class="out-dmnd"></div>
                     <div class="in-dmnd transition in"></div>
-                    <div class="txt">
-                        The<br>CM
-                    </div>
-                </div>
-                <div class="diamond transition shw-ad-mnu i-1" data-title="KCR - The Leader" data-id="the_person" data-img="1">
+                    <div class="txt">The<br>CM</div>
+                </a>
+                <a class="diamond transition shw-ad-mnu i-1" href="the_leader/initiatives.html" data-title="KCR - The Leader" data-id="the_person" data-img="1">
                     <div class="out-dmnd"></div>
                     <div class="in-dmnd transition in"></div>
-                    <div class="txt">
-                        The<br>Leader
-                    </div>
-                </div>
-                <div class="diamond transition shw-ad-mnu i-0" data-title="KCR - The Activist" data-id="the_actvst" data-img="0">
+                    <div class="txt">The<br>Leader</div>
+                </a>
+                <a class="diamond transition shw-ad-mnu i-0" href="the_activist/initiatives.html" data-title="KCR - The Visionary" data-id="the_actvst" data-img="0">
                     <div class="out-dmnd"></div>
                     <div class="in-dmnd transition"></div>
-                    <div class="txt">
-                        The<br>Activist
-                    </div>
-                </div>
-                <div class="diamond transition i-3" data-title="KCR - Connect" data-img="3" data-id="connect">
+                    <div class="txt">The<br>Visionary</div>
+                </a>
+                <a href="contact" class="diamond transition i-3" data-title="KCR - Connect" data-img="3" data-id="connect">
                      <div class="out-dmnd"></div>
                     <div class="in-dmnd transition in"></div>
-                    <a href="/contact.html">
-                    <div class="txt">
-                        Connect
-                    </div>
-                    </a>
-                </div>
+                    <div class="txt">Connect</div>
+                </a>
             </section>
         </div>
         
@@ -123,7 +114,6 @@
                             </div>
                         </a>
                 </div>
-                    
                 <div class="diamond" data-tag="My take on people, policies and politics">
                     <a href="/the_leader/news">
                     <div class="out-dmnd"></div>
@@ -133,10 +123,8 @@
                     </div>
                     </a>
                 </div>
-                
                 <div class="diamond shw-top-mnu" id="shw-top-mnu">
                     <div class="out-dmnd"></div>
-                    
                     <div class="in-dmnd transition in"></div>
                     <div class="txt-dmnd adj-top">
                         <div class="txt">Back<br>to home</div>

@@ -32,30 +32,30 @@ var kbs, kenburn = {
 
 $(document).ready(function () {
 // in this event changed ID to CLASS 
-  var shw_admnu = $('.shw-ad-mnu').on('click', function (e) {
-    e.preventDefault();
-    var id = $(this).data('id');
-      $('#' +id).addClass('in').siblings('#top-mnu').removeClass('in');
-      $('.men-title').html($(this).data('title'));
-      var img = $(this).data('img');
-      var strp = $(this).data('title');
-      $('#kb-container').addClass('hidden');
-      $('.bckg').removeClass('hidden');
-      var path = 'assets/img/home/'+img+'.jpg'
-      $('.bckg').css({'background-image': 'url('+path+')'});
-      $('#hello-contents .sld-hdng').addClass('hidden');
-      $('#hello-contents .sngl-hdng').removeClass('hidden').html(strp);
-      
-//      kbs.viewport.kenburnIt({
-//      images: [
-//        "assets/img/home/"+img+".jpg",
-//      ],
-//      zoom: 1,
-//      duration: 10
-//    });
-
-    $('#top-mnu section').find('.diamond').children('.out-dmnd').removeClass('dmnd-brdr');
-  });
+//  var shw_admnu = $('.shw-ad-mnu').on('click', function (e) {
+//    e.preventDefault();
+//    var id = $(this).data('id');
+//      $('#' +id).addClass('in').siblings('#top-mnu').removeClass('in');
+//      $('.men-title').html($(this).data('title'));
+//      var img = $(this).data('img');
+//      var strp = $(this).data('title');
+//      $('#kb-container').addClass('hidden');
+//      $('.bckg').removeClass('hidden');
+//      var path = 'assets/img/home/'+img+'.jpg'
+//      $('.bckg').css({'background-image': 'url('+path+')'});
+//      $('#hello-contents .sld-hdng').addClass('hidden');
+//      $('#hello-contents .sngl-hdng').removeClass('hidden').html(strp);
+//      
+////      kbs.viewport.kenburnIt({
+////      images: [
+////        "assets/img/home/"+img+".jpg",
+////      ],
+////      zoom: 1,
+////      duration: 10
+////    });
+//
+//    $('#top-mnu section').find('.diamond').children('.out-dmnd').removeClass('dmnd-brdr');
+//  });
 
   var top_menu = $('.shw-top-mnu').on('click', function () {
       $('#kb-container').removeClass('hidden');

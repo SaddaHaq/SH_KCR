@@ -3,7 +3,6 @@
     <head>
         <meta charset="UTF-8">
         <title>Kalvakuntla Chandrasekhar Rao -- Chief Minsiter of Telangana</title>
-
         <!--CSS styles-->
         <link rel="icon" type="image/png" href="<?=DOMAIN?>/assets/img/fav_icon.png">
         <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/vendors/font-awesome.min.css"> 
@@ -14,7 +13,6 @@
         <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/skins/skin3/style.css">
         <link rel='stylesheet' type='text/css' href='<?=DOMAIN?>/assets/css/font-awesome5152.css?ver=1.0'/>
-        <link rel='stylesheet' type='text/css' href='<?=DOMAIN?>/assets/css/animate5152.css'/>
         <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/vendors/blueimp-gallery.css">
         <!--/CSS styles-->
         

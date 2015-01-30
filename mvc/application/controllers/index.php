@@ -43,10 +43,33 @@ class Index_Controller extends Controller{
             echo 'Page not found';
             break;
         }
+        case 'contact':
+            $this -> view -> render('contact/'.$params[0]);
+        break;
+    case 'albums':
+            $this -> view -> render('albums/'.$params[0]);
+        break;
+          case 'gallery':
+            $this -> view -> render('gallery/'.$params[0]);
         break;
       default:
         $this -> view -> render('index/index');
         break;
     }
+  }
+  
+  public function get_albums(){
+      $dir = 'assets/img/albums';
+      $files = scandir($dir);
+      echo $files = json_encode($files);
+      return $files;
+      
+  }
+  public function get_images(){
+      $id = $_POST['id'];
+      $dir = "assets/img/albums/$id";
+      $files = scandir($dir);
+      echo $files = json_encode($files);
+      return $files;
   }
 }
