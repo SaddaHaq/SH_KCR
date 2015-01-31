@@ -1,4 +1,22 @@
 $(document).ready(function () {
+    $('.lft-mnu-item').mouseenter(function(){
+   $('.left-mnu').css({'width':'200px'}); 
+   $('.mnu-itm-ttl').show();
+});
+
+  $('.lft-mnu-item').mouseleave(function(){
+   $('.left-mnu').css({'width':'59px'}); 
+   $('.mnu-itm-ttl').hide();
+})
+$('.gamma-gallery').on('click', '.gamma-description', function(){
+        $('.left-mnu').css({'opacity':'0'});
+});
+//
+$('.gamma-container').on('click', '.gamma-btn-close', function(){
+       $('.left-mnu').css({'opacity':'1'});
+});
+    
+    
     var id = location.hash;
     id = id.replace('#', '');
     var path = location.pathname;
@@ -85,7 +103,6 @@ $(document).ready(function () {
     }
     
     path = path.split('/');
-    
 if(path[1] == 'gallery'){
     var id = location.pathname;
         id = id.split('/');

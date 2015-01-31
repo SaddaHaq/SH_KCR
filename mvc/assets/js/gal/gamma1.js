@@ -812,7 +812,6 @@ var Gamma = (function() {
 				} );
 
 				$item.css( 'visibility', 'hidden' );
-
 				if( !anim ) {
 
 					_loadSVItemFromGrid( data, finalSizePosition, source.src );
