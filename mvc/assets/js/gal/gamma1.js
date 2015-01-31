@@ -406,7 +406,7 @@ var Gamma = (function() {
 					maxheight : $picEl.data( 'maxHeight' )
 				} );
 
-				$( '<div/>' ).addClass( 'gamma-description' ).html( description ).insertAfter( $picEl );
+				$( '<div/>' ).addClass( 'gamma-description' ).html('<h3 style="font-size: 3em; color: #333;"><i class="icon-eye-open"></i></h3>').insertAfter( $picEl );;
 
 				$( '<img/>' ).attr( {
 					alt : $picEl.data( 'alt' ),

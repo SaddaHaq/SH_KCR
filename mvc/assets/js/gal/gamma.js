@@ -412,7 +412,7 @@ var Gamma = (function() {
 					maxheight : $picEl.data( 'maxHeight' )
 				});
 
-				$( '<a href='+hyprlnk+'></a>' ).addClass( 'gamma-description' ).html( description ).insertAfter( $picEl );
+				$( '<a href='+hyprlnk+'></a>' ).addClass( 'gamma-description' ).html(description+'<h5>(Clik for more images)<h5>').insertAfter( $picEl );
 
 				$( '<img/>' ).attr( {
 					alt : $picEl.data( 'alt' ),
@@ -751,7 +751,7 @@ var Gamma = (function() {
 				data = $item.data(),
 				$img = $item.children( 'img' );
 			if( anim ) {
-
+                                   
 				Gamma.fly = $( '<img/>' ).attr( 'src', $img.attr( 'src' ) ).addClass( 'gamma-img-fly' ).css( {
 					width : $img.width(),
 					height : $img.height(),

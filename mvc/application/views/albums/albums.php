@@ -13,161 +13,39 @@
                         <li class="lft-mnu-item"><a href="contact"><i class="icon-phone" style="padding-left: 4px;"></i><span class="mnu-itm-ttl">Contact</span></a></li>
             </ul></div>
         <div class="container">
+            <div class="albm-phts" style="width: 80%">
             <div class="main">
                 <header class="clearfix">
-                    <h1>Albums</h1>
-                    <div class="support-note">
+                    <h1>Photos</h1>
+                                        <div class="support-note">
                         <span class="note-ie">Sorry, only modern browsers.</span>
                     </div>
                 </header>
                 <div class="gamma-container gamma-loading" id="gamma-container">
                     <ul class="gamma-gallery">
-
-<!--                        <li>
-                            <div data-alt="img03" data-description="<h3>Republic Day Celebrations 2015</h3>" data-max-width="1800" data-max-height="1350">
-                                <div data-src="<?=DOMAIN?>/assets/img/gallery/the_cm/Republic-Day-Celebrations-2015/albm-img.jpg" data-min-width="200"></div>
-                                <noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript>
-                            </div>
-                            </li>
-                        <li>
-                            <div data-alt="img03" data-description="<h3>CM-KCR launches aasara scheme</h3>" data-max-width="1800" data-max-height="1350">
-                                <div data-src="<?=DOMAIN?>/assets/img/gallery/the_cm/CM-kCR-launches-aasara-scheme/albm-img.jpg" data-min-width="200"></div>
-                                <noscript>
-                                <img src="images/xsmall/3.jpg" alt="img03"/>
-                                </noscript>
-                            </div>
-                        </li>
-                        <li>
-                            <div data-alt="img03" data-description="<h3>KCR visit warangal</h3>" data-max-width="1800" data-max-height="1350">
-                                <div data-src="<?=DOMAIN?>/assets/img/gallery/the_cm/KCR-visit-warangal/albm-img.jpg" data-min-width="200"></div>
-                                <noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript>
-                            </div>
-                        </li>
-                        <li>
-                            <div data-alt="img03" data-description="<h3>CM KCR Mahabubnagar visit</h3>" data-max-width="1800" data-max-height="1350">
-                                <div data-src="<?=DOMAIN?>/assets/img/gallery/the_cm/CM-KCR-Mahabubnagar-visit/albm-img.jpg" data-min-width="200"></div>
-                                <noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript>
-                            </div>
-                        </li>
-                        <li>
-                            <div data-alt="img03" data-description="<h3>KCR visit to Bibinagar NIMS</h3>" data-max-width="1800" data-max-height="1350">
-                                <div data-src="<?=DOMAIN?>/assets/img/gallery/the_cm/KCR-visit-to-Bibinagar-NIMS/albm-img.jpg" data-min-width="200"></div>
-                                <noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript>
-                            </div>
-                        </li>
-                        <li>
-                            <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
-                                <div data-src="../assets/img/gallery/the_cm/KCR-visit-warangal/KCR-visit-warangal-3.jpg" data-min-width="200"></div>
-                                <noscript>
-                                <img src="images/xsmall/3.jpg" alt="img03"/>
-                                </noscript>
-                            </div>
-                        </li>
-                        <li>
-                            <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
-                                <div data-src="../assets/img/gallery/the_cm/KCR-visit-warangal/KCR-visit-warangal-3.jpg" data-min-width="200"></div>
-                                <noscript>
-                                <img src="images/xsmall/3.jpg" alt="img03"/>
-                                </noscript>
-                            </div>
-                        </li>
-                        <li>
-                            <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
-                                <div data-src="../assets/img/gallery/the_cm/KCR-visit-warangal/KCR-visit-warangal-3.jpg" data-min-width="200"></div>
-                                <noscript>
-                                <img src="images/xsmall/3.jpg" alt="img03"/>
-                                </noscript>
-                            </div>
-                        </li>
-                        <li>
-                            <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
-                                <div data-src="../assets/img/gallery/the_cm/KCR-visit-warangal/KCR-visit-warangal-3.jpg" data-min-width="200"></div>
-                                <noscript>
-                                <img src="images/xsmall/3.jpg" alt="img03"/>
-                                </noscript>
-                            </div>
-                        </li>
-                        <li>
-                            <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
-                                <div data-src="../assets/img/gallery/the_cm/KCR-visit-warangal/KCR-visit-warangal-3.jpg" data-min-width="200"></div>
-                                <noscript>
-                                <img src="images/xsmall/3.jpg" alt="img03"/>
-                                </noscript>
-                            </div>
-                        </li>
-                        <li>
-                            <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
-                                <div data-src="../assets/img/gallery/the_cm/KCR-visit-warangal/KCR-visit-warangal-3.jpg" data-min-width="200"></div>
-                                <noscript>
-                                <img src="images/xsmall/3.jpg" alt="img03"/>
-                                </noscript>
-                            </div>
-                        </li>
-                        <li>
-                            <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
-                                <div data-src="../assets/img/gallery/the_cm/KCR-visit-warangal/KCR-visit-warangal-3.jpg" data-min-width="200"></div>
-                                <noscript>
-                                <img src="images/xsmall/3.jpg" alt="img03"/>
-                                </noscript>
-                            </div>
-                        </li>
-                        <li>
-                            <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
-                                <div data-src="../assets/img/gallery/the_cm/KCR-visit-warangal/KCR-visit-warangal-3.jpg" data-min-width="200"></div>
-                                <noscript>
-                                <img src="images/xsmall/3.jpg" alt="img03"/>
-                                </noscript>
-                            </div>
-                        </li>
-                        <li>
-                            <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
-                                <div data-src="../assets/img/gallery/the_cm/KCR-visit-warangal/KCR-visit-warangal-3.jpg" data-min-width="200"></div>
-                                <noscript>
-                                <img src="images/xsmall/3.jpg" alt="img03"/>
-                                </noscript>
-                            </div>
-                        </li>
-                        <li>
-                            <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
-                                <div data-src="../assets/img/gallery/the_cm/KCR-visit-warangal/KCR-visit-warangal-3.jpg" data-min-width="200"></div>
-                                <noscript>
-                                <img src="images/xsmall/3.jpg" alt="img03"/>
-                                </noscript>
-                            </div>
-                        </li>
-                        <li>
-                            <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
-                                <div data-src="../assets/img/gallery/the_cm/KCR-visit-warangal/KCR-visit-warangal-3.jpg" data-min-width="200"></div>
-                                <noscript>
-                                <img src="images/xsmall/3.jpg" alt="img03"/>
-                                </noscript>
-                            </div>
-                        </li>
-                        <li>
-                            <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
-                                <div data-src="../assets/img/gallery/the_cm/KCR-visit-warangal/KCR-visit-warangal-3.jpg" data-min-width="200"></div>
-                                <noscript>
-                                <img src="images/xsmall/3.jpg" alt="img03"/>
-                                </noscript>
-                            </div>
-                        </li>
-                        <li>
-                            <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">
-                                <div data-src="../assets/img/gallery/the_cm/KCR-visit-warangal/KCR-visit-warangal-3.jpg" data-min-width="200"></div>
-                                <noscript>
-                                <img src="images/xsmall/3.jpg" alt="img03"/>
-                                </noscript>
-                            </div>
-                        </li>-->
                     </ul>
 
                     <div class="gamma-overlay"></div>
-
                     <div id="loadmore" class="loadmore">Load more</div>
 
                 </div>
 
-            </div><!--/main-->
+            </div>
+                
+            </div>
+<!--            <div class="vids-albms" style="width: 20%">
+            <header class="clearfix">
+                    <h1>Videos</h1>
+                    <div class="support-note">
+                        <span class="note-ie">Sorry, only modern browsers.</span>
+                    </div>
+                    </header>
+                    <?php for($i=0; $i<13; $i++){?>
+                    <div class="vdeo-itm">
+                        <img src="assets/img/albums/KCR-Jail-Bharo-programme-on-Free-Zone-Issue/albm-img.jpg">
+                    </div>
+                    <?php } ?>
+            </div>-->
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script type="text/javascript" src="../assets/js/gal.js"></script>

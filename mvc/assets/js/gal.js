@@ -40,7 +40,7 @@ $('.gamma-container').on('click', '.gamma-btn-close', function(){
            for(i=2; i<lngth; i++){
                var ttl = data[i].replace(/-/g, ' ');
            $('.gamma-gallery').append('<li><div data-alt="img03" data-url="gallery/'+data[i]+'" data-description="<h3>' + ttl + '</h3>" data-max-width="1800" data-max-height="1350">'+
-                                '<div data-src="assets/img/albums/'+data[i]+'/albm-img.jpg" data-min-width="200"></div>'+
+                                '<div data-src="assets/img/albums/'+data[i]+'/albm-img.jpg" data-min-width="138"></div>'+
                                 '<noscript>'+
                                 '<img src="assets/img/albums/'+data[i]+'/albm-img.jpg"/></noscript></div></li>');
        };
@@ -52,13 +52,13 @@ $('.gamma-container').on('click', '.gamma-btn-close', function(){
                 var GammaSettings = {
                     // order is important!
                     viewport: [{
-                            width: 1200,
+                            width: 1800,
                             columns: 5
                         }, {
                             width: 900,
                             columns: 4
                         }, {
-                            width: 500,
+                            width: 900,
                             columns: 3
                         }, {
                             width: 320,
@@ -123,7 +123,7 @@ if(path[1] == 'gallery'){
                ttl = ttl.split('.');
                ttl = ttl[0];
            $('.gamma-gallery').append('<li><div data-alt="img03" data-description="<h3>' + ttl + '</h3>" data-max-width="1800" data-max-height="1350">'+
-                                '<div data-src="/assets/img/albums/'+id+'/'+data[i]+'" data-min-width="200"></div>'+
+                                '<div data-src="/assets/img/albums/'+id+'/'+data[i]+'" data-min-width="138"></div>'+
                                 '<noscript>'+
                                 '<img src="assets/img/albums/'+id+'/'+data[i]+'"/></noscript></div></li>');
        };

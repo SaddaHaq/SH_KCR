@@ -3,6 +3,12 @@
         <script src="../assets/js/gal/modernizr.custom.70736.js"></script>
         <noscript><link rel="stylesheet" type="text/css" href="css/noJS.css"/></noscript>
         <!--[if lte IE 7]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
+        <style>
+            .gamma-description{
+                cursor: -webkit-zoom-in !important;
+            }
+            
+        </style>
     </head>
     <body>
         <div class="left-mnu"><ul class="lft-mnu-lst">

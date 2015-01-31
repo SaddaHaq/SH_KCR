@@ -24,7 +24,7 @@ html { height: 100%; }
 
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
-    background: #fff;
+    background: #000;
     font-weight: 300;
     font-size: 15px;
     color: #333;
@@ -44,7 +44,7 @@ a {
 }
 
 .main {
-	padding: 30px 20px 100px 20px;
+	padding: 30px 20px 0px 20px;
 	max-width: 1580px;
 	margin: 0 auto;
 }
@@ -58,7 +58,7 @@ a {
 	line-height: 38px;
 	margin: 0;
 	font-weight: 700;
-	color: #333 !important;
+	color: #FFF !important;
 	float: left;
         text-transform: capitalize;
 }
