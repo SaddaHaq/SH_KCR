@@ -73,4 +73,8 @@ class Index_Controller extends Controller{
       echo $files = json_encode($files);
       return $files;
   }
+  
+//  public function get_video_albums(){
+//      echo $this->model->get_video_urls();  
+//      }
 }

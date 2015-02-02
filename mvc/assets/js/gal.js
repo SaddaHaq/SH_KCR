@@ -27,7 +27,28 @@ $('.gamma-container').on('click', '.gamma-btn-close', function(){
     
     var path = location.pathname;
     
-    if(path == '/albums'){
+if(path == '/albums'){
+      $.ajax({
+       url: '/index/get_video_urls',
+       type: 'post',
+       data: {
+       },
+       success:function(data){
+           var d = JSON.parse(data);
+          var l = data.length;
+          var i;
+          for (i=0; i<l; i++){
+           $('#video-items').append('<div id="video-items"><div class="vdeo-itm"><a href="'+d[i]._video_id_+'" class="vdeo-bdy" data-title="'+d[i]._title_+'">'+
+                        '<div class="vdo-play"><img src="assets/img/y-play.png"></div>'+
+                        '<img src="http://img.youtube.com/vi/'+d[i]._video_id_+'/mqdefault.jpg" class="v-thumb"></a>'+
+                        '<a href="tGD4flWmzVI" class="vdeo-bdy" data-title="'+d[i]._title_+'"><h4>'+d[i]._title_+'</h4></a>'+
+                    '</div></div>');
+          }
+   }
+    });  
+        
+        
+        
     $.ajax({
        url: '/index/get_albums',
        type: 'post',
@@ -189,4 +210,22 @@ if(path[1] == 'gallery'){
     
 }
 
+
+
+$('#video-items').on('click', '.vdeo-bdy', function () {
+    $('.lightbox').addClass('in');
+    $('#video-wrapper').addClass('vdeo-opn');
+    var id = $(this).attr('href');
+    var src = '//www.youtube.com/embed/'+id;
+    $("#youtube").attr('src', src);
+    var ttl = $(this).data('title');
+    $('.vdo-title').text(ttl);
+    return false;
+});
+
+$('.vdo-close').click(function(){
+   $('.lightbox').removeClass('in');
+   $('#video-wrapper').removeClass('vdeo-opn');
+   $("#youtube").attr('src', 'none');
+});
 });

@@ -5,6 +5,12 @@
         <!--[if lte IE 7]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
     </head>
     <body>
+        <div class="lightbox"></div>
+        <div id="video-wrapper">
+            <div class="vdo-close"><i class="icon-remove-sign"></i></div>
+            <iframe id="youtube" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+            <h4 class="vdo-title"></h4>
+        </div>
         <div class="left-mnu"><ul class="lft-mnu-lst">
                         <li class="lft-mnu-item"><a href="/"><i class="icon-home"></i><span class="mnu-itm-ttl">Home</span></a></li>
                         <!--<li class="lft-mnu-item"><a href="albums"><i class="icon-picture"></i><span class="mnu-itm-ttl">Albums</span></a></li>-->
@@ -13,7 +19,7 @@
                         <li class="lft-mnu-item"><a href="contact"><i class="icon-phone" style="padding-left: 4px;"></i><span class="mnu-itm-ttl">Contact</span></a></li>
             </ul></div>
         <div class="container">
-            <div class="albm-phts" style="width: 80%">
+            <div class="albm-phts">
             <div class="main">
                 <header class="clearfix">
                     <h1>Photos</h1>
@@ -33,19 +39,23 @@
             </div>
                 
             </div>
-<!--            <div class="vids-albms" style="width: 20%">
+            <div class="vids-albms">
             <header class="clearfix">
                     <h1>Videos</h1>
                     <div class="support-note">
                         <span class="note-ie">Sorry, only modern browsers.</span>
                     </div>
                     </header>
-                    <?php for($i=0; $i<13; $i++){?>
-                    <div class="vdeo-itm">
+                <div id="video-items">
+<!--                    <div class="vdeo-itm">
+                        <a href="tGD4flWmzVI" class="vdeo-bdy">
+                        <div class="vdo-play"><img src="assets/img/y-play.png"></div>
                         <img src="assets/img/albums/KCR-Jail-Bharo-programme-on-Free-Zone-Issue/albm-img.jpg">
-                    </div>
-                    <?php } ?>
-            </div>-->
+                        </a>
+                        <a href="tGD4flWmzVI" class="vdeo-bdy"><h4>Telangana CM KCR Full Speech about “Single Window Policy “</h4></a>
+                    </div>-->
+            </div>
+                </div>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script type="text/javascript" src="../assets/js/gal.js"></script>

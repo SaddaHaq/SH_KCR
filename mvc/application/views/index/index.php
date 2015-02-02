@@ -1,6 +1,5 @@
 <link rel='stylesheet' type='text/css' href='<?=DOMAIN?>/assets/css/animate5152.css'/>
 <body>
-
         <!--Main wrapper-->
         <div id="top-mnu" class="transition in top-mnu">
             <section>
