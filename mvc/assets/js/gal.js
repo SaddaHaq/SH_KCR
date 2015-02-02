@@ -37,7 +37,7 @@ if(path == '/albums'){
            var d = JSON.parse(data);
           var l = data.length;
           var i;
-          for (i=0; i<l; i++){
+          for (i=0; i<11; i++){
            $('#video-items').append('<div id="video-items"><div class="vdeo-itm"><a href="'+d[i]._video_id_+'" class="vdeo-bdy" data-title="'+d[i]._title_+'">'+
                         '<div class="vdo-play"><img src="assets/img/y-play.png"></div>'+
                         '<img src="http://img.youtube.com/vi/'+d[i]._video_id_+'/mqdefault.jpg" class="v-thumb"></a>'+

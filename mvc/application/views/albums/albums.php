@@ -14,7 +14,7 @@
         <div class="left-mnu"><ul class="lft-mnu-lst">
                         <li class="lft-mnu-item"><a href="/"><i class="icon-home"></i><span class="mnu-itm-ttl">Home</span></a></li>
                         <!--<li class="lft-mnu-item"><a href="albums"><i class="icon-picture"></i><span class="mnu-itm-ttl">Albums</span></a></li>-->
-                        <li class="lft-mnu-item"><a href="/the_cm/blog"><i class="icon-lightbulb" style="padding-left: 7px;"></i><span class="mnu-itm-ttl">Initiatives</span></a></li>
+                        <li class="lft-mnu-item"><a href="/the_cm/initiatives"><i class="icon-lightbulb" style="padding-left: 7px;"></i><span class="mnu-itm-ttl">Initiatives</span></a></li>
                         <li class="lft-mnu-item"><a href="https://cm.telangana.gov.in/" target="_blank"><i style="padding-left: 7px;" class="icon-rupee"></i><span class="mnu-itm-ttl">CM relief fund</span></a></li>
                         <li class="lft-mnu-item"><a href="contact"><i class="icon-phone" style="padding-left: 4px;"></i><span class="mnu-itm-ttl">Contact</span></a></li>
             </ul></div>
