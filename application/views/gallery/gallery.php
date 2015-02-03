@@ -10,16 +10,22 @@
             
         </style>
     </head>
-    <body>
-        <div class="left-mnu"><ul class="lft-mnu-lst">
-                        <li class="lft-mnu-item"><a href="/"><i class="icon-home"></i><span class="mnu-itm-ttl">Home</span></a></li>
-                        <li class="lft-mnu-item"><a href="/albums"><i class="icon-picture"></i><span class="mnu-itm-ttl">Albums</span></a></li>
-                        <li class="lft-mnu-item"><a href="/the_cm/initiatives"><i class="icon-lightbulb" style="padding-left: 7px;"></i><span class="mnu-itm-ttl">Initiatives</span></a></li>
-                        <li class="lft-mnu-item"><a href="https://cm.telangana.gov.in/" target="_blank"><i style="padding-left: 7px;" class="icon-rupee"></i><span class="mnu-itm-ttl">CM relief fund</span></a></li>
-                        <li class="lft-mnu-item"><a href="/contact"><i class="icon-phone" style="padding-left: 4px;"></i><span class="mnu-itm-ttl">Contact</span></a></li>
-            </ul></div>
+    <body class="collaps-side">
+        <div class="left-mnu hidn-sidbar"><ul class="lft-mnu-lst">
+            <li class="lft-mnu-item"><a href="/"><i class="icon-home"></i><span class="mnu-itm-ttl">Home</span></a></li>
+            <li class="lft-mnu-item"><a href="/albums"><i class="icon-picture"></i><span class="mnu-itm-ttl">Albums</span></a></li>
+            <li class="lft-mnu-item"><a href="#" class="sb-mnu-intiavs"><i class="icon-lightbulb" style="padding-left: 7px;"></i><span class="mnu-itm-ttl">Initiatives<i class="icon-chevron-down" style="font-size: 1em; padding-left: 5px; padding-top: 5px; opacity: 0"></i></span></a>
+
+                <ul class="intivs_sub_menu" style="display: none;"> 
+                    <li><a href="/the_cm/initiatives" class="history newrelease a-l">The CM</a></li>
+                    <li><a href="/the_leader/initiatives" class="history a-l">The Leader</a></li>
+                    <li><a href="/the_visionary/initiatives" class="history a-l">The Visionary</a></li>
+                </ul></li>
+            <li class="lft-mnu-item"><a href="https://cm.telangana.gov.in/" target="_blank"><i style="padding-left: 7px;" class="icon-rupee"></i><span class="mnu-itm-ttl">Donate</span></a></li>
+            <li class="lft-mnu-item"><a href="/contact"><i class="icon-phone" style="padding-left: 4px;"></i><span class="mnu-itm-ttl">Contact</span></a></li>
+        </ul></div>
         <div class="a-lod"><img src="/assets/img/load.gif"/></div>
-        <div class="container">
+        <div class="container r-pg-cnt">
             <div class="main">
                 <header class="clearfix">
                     <h1>KCR - The CM<span>Albums</span></h1>

@@ -62,9 +62,11 @@
            url: '/index/initiatives_input',
            type: 'post',
            data: {
-               'y_url': $('#v-url').val(),
-               'ttl': $('#v-ttl').val(),
-               'v_id': $('#v-id').val()
+               'ttl': $('#ttl').val(),
+               'desc': $('#desc').val(),
+               'img': $('#img').val(),
+               'catg': $('#cat').val(),
+               
            },
            success: function(d){
               document.getElementById('initiative-fm').reset(); 
@@ -79,10 +81,9 @@
            url: '/index/vdo_galry_input',
            type: 'post',
            data: {
-               'ttl': $('#v-url').val(),
-               'desc': $('#desc').val(),
-               'img': $('#img').val(),
-               'catg': $('#cat').val(),
+               'y_url': $('#v-url').val(),
+               'ttl': $('#v-ttl').val(),
+               'v_id': $('#v-id').val()
            },
            success: function(d){
               document.getElementById('video_galry_fm').reset(); 

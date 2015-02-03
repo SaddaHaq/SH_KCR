@@ -1,12 +1,15 @@
 $(document).ready(function () {
     $('.lft-mnu-item').mouseenter(function(){
-   $('.left-mnu').css({'width':'200px'}); 
-   $('.mnu-itm-ttl').show();
+//   $('.left-mnu').css({'width':'200px'}); 
+//   $('.mnu-itm-ttl').show();
+   $('body').removeClass('collaps-side');
+   $('.icon-chevron-down').css({'opacity': '1'});
 });
 
   $('.lft-mnu-item').mouseleave(function(){
-   $('.left-mnu').css({'width':'59px'}); 
-   $('.mnu-itm-ttl').hide();
+$('.icon-chevron-down').css({'opacity': '0'});
+$('body').addClass('collaps-side');
+//   $('.mnu-itm-ttl').hide();
    $('.intivs_sub_menu').css({'display': 'none'});
 })
 $('.gamma-gallery').on('click', '.gamma-description', function(){

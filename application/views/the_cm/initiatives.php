@@ -1,17 +1,17 @@
-<body>
-    <div class="left-mnu"><ul class="lft-mnu-lst" style="margin-left: -39px;">
-                        <li class="lft-mnu-item"><a href="/"><i class="icon-home"></i><span class="mnu-itm-ttl">Home</span></a></li>
-                        <li class="lft-mnu-item"><a href="/albums"><i class="icon-picture"></i><span class="mnu-itm-ttl">Albums</span></a></li>
-                        <li class="lft-mnu-item"><a href="#" class="sb-mnu-intiavs"><i class="icon-lightbulb" style="padding-left: 7px;"></i><span class="mnu-itm-ttl">Initiatives<i class="icon-chevron-down" style="font-size: 1em; padding-left: 5px;"></i></span></a>
-                    
-                    <ul class="intivs_sub_menu" style="display: none;"> 
+<body class="collaps-side">
+    <div class="left-mnu hidn-sidbar"><ul class="lft-mnu-lst" style="margin-left: -39px;">
+            <li class="lft-mnu-item"><a href="/"><i class="icon-home"></i><span class="mnu-itm-ttl">Home</span></a></li>
+            <li class="lft-mnu-item"><a href="/albums"><i class="icon-picture"></i><span class="mnu-itm-ttl">Albums</span></a></li>
+            <li class="lft-mnu-item"><a href="#" class="sb-mnu-intiavs"><i class="icon-lightbulb" style="padding-left: 7px;"></i><span class="mnu-itm-ttl">Initiatives<i class="icon-chevron-down" style="font-size: 1em; padding-left: 5px; padding-top: 5px; opacity: 0"></i></span></a>
+
+                <ul class="intivs_sub_menu" style="display: none;"> 
                     <li><a href="/the_cm/initiatives" class="history newrelease a-l">The CM</a></li>
                     <li><a href="/the_leader/initiatives" class="history a-l">The Leader</a></li>
                     <li><a href="/the_visionary/initiatives" class="history a-l">The Visionary</a></li>
-                    </ul></li>
-                        <li class="lft-mnu-item"><a href="https://cm.telangana.gov.in/" target="_blank"><i style="padding-left: 7px;" class="icon-rupee"></i><span class="mnu-itm-ttl">CM relief fund</span></a></li>
-                        <li class="lft-mnu-item"><a href="/contact"><i class="icon-phone" style="padding-left: 4px;"></i><span class="mnu-itm-ttl">Contact</span></a></li>
-            </ul></div>
+                </ul></li>
+            <li class="lft-mnu-item"><a href="https://cm.telangana.gov.in/" target="_blank"><i style="padding-left: 7px;" class="icon-rupee"></i><span class="mnu-itm-ttl">Donate</span></a></li>
+            <li class="lft-mnu-item"><a href="/contact"><i class="icon-phone" style="padding-left: 4px;"></i><span class="mnu-itm-ttl">Contact</span></a></li>
+        </ul></div>
     <?php // require APP_PATH . '/layout/submenu_thecm.php'; ?>
     <!--Main wrapper-->
     <div id="wrapper">
@@ -27,56 +27,31 @@
             <div id="contents">
 
                 <!-- Swiper Pages -->
-                <div id="swiper-content">
+                <div id="swiper-content" class="r-pg-cnt">
                     <div class="swiper-wrapper">
                         <div class="sub-page swiper-slide" data-hash="initiatives" style="overflow: visible;">
                             <!--Page side bar--> 
                             <div class="page-side" style="float: right">
                                 <div class="inner-wrapper scrollbar">
 
-                                    <!--Side bar title--> 
                                     <div class="sub-page-title">
                                         <h2 class="mycontainer ">The CM</h2>
                                     </div>  
-                                    <!--/Side bar title--> 
 
-                                    <!--Side bar image--> 
                                     <img src="<?= DOMAIN ?>/assets/img/portfolio/cover14.jpg" class="img-responsive hidden-xs" alt="img">
-                                    <!--/Side bar image--> 
 
-                                    <!--Side bar contents--> 
                                     <div class="mycontainer hidden-xs ">
                                         <p style="margin-top:16px;">The Economy of Telangana is mainly driven by agriculture, IT and industry. Two important rivers of India, the Godavari and Krishna, flow through the state, providing irrigation. Farmers in Telangana mainly depend on rain-fed water sources for irrigation. Hyderabad is the second largest exporter of IT Services in India. It is also one of India's largest industrial hubs. KCR has initiated a number of initiatives to help grow the economy of Telangana. Here's a collection of them.</p>
                                     </div>
-                                    <!--/Side bar contents--> 
                                 </div>
                             </div>
                             <!--/Page side bar--> 
 
                             <!--Page main contents--> 
-                            <div class="page-container">
+                            <div class="page-container" style="width: 80%">
                                 <div class="inner-wrapper scrollbar">
                                     <!--Vertival Portfolio Wrapper-->
                                     <div class="vertical-portfolio">
-                                        
-                                        
-                                        <!--Portfolio item-->
-<!--                                        <div class="portfolio-item row">
-                                            <div class="item-image col-sm-8">
-                                                <img src="<?= DOMAIN ?>/assets/img/portfolio/cover01.jpg" alt="" class="img-responsive">
-                                            </div>
-                                            <div class="item-info col-sm-4">
-                                                <div class="inner-wrapper">
-                                                    <h3 class="title" style="margin-top: auto;">రైతుల పంట రుణాల మాఫీ</h3>
-                                                    <p class="item-description">టి ఆర్ ఎస్ పార్టీ ఎన్నికల సమయంలో ఇచ్చిన హామీ మేరకు తెలంగాణాలోని రైతులందరికి రూ. లక్ష లోపు పంట రుణాలను మాఫీ చేసింది.</p>
-                                                    <p class="item-description">మొత్తం రుణాలు 17 వేల కోట్ల రూపాయల వరకు రుణ మాఫీ జర్గుతుంది. ఇందులో మొదటి విడతగా రూ. 4250 కోట్లను విసుదల చేసారు. దీంతో బ్యాంకర్లు రైతులకు రుణాలను రీశేడ్యుల్ చేసారు. అక్టోబర్ 15 లోపు డేడ్ లైన్ గా విదించుకొని రుణ మాఫీ ప్రక్రియను ప్రబుత్వం పూర్తి చేస్తున్నది.</p>
-                                                    <a href="/view" class="btn btn-lg btn-theme pull-right"><i class="fa fa-arrow-circle-o-up"></i>View</a>
-                                                </div>
-                                            </div>	
-                                        </div>-->
-                                        
-                                        
-                                     
                                     </div>
                                     <!--/Vertival Portfolio Wrapper-->
                                 </div>
