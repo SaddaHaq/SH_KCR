@@ -7,6 +7,7 @@ $(document).ready(function () {
   $('.lft-mnu-item').mouseleave(function(){
    $('.left-mnu').css({'width':'59px'}); 
    $('.mnu-itm-ttl').hide();
+   $('.intivs_sub_menu').css({'display': 'none'});
 })
 $('.gamma-gallery').on('click', '.gamma-description', function(){
         $('.left-mnu').css({'opacity':'0'});
@@ -228,4 +229,11 @@ $('.vdo-close').click(function(){
    $('#video-wrapper').removeClass('vdeo-opn');
    $("#youtube").attr('src', 'none');
 });
+
+
+$('.sb-mnu-intiavs').click(function(){
+  $('.intivs_sub_menu').toggle()
+  
+});
+
 });

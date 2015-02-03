@@ -1593,41 +1593,41 @@ var imageFill={
 }
 /* google map
 ----------------------------------------------*/
-var $gmap = $("#gmap"); 
-$gmap.gmap3({
-  map: {
-      options: {
-          maxZoom:15,
-          streetViewControl: false,
-          mapTypeControl: false,
-      }
-  },
-  styledmaptype: {
-      id: "mystyle",
-      options: {
-          name: "Style 1"
-      },
-      styles: [
-          {
-              featureType: "all",
-              stylers: [
-                  {"saturation": -90}, {"gamma": 0.9}
-              ]
-          }
-      ]
-  },
-  overlay:{
-    //Edit following line and enter your own address
-    address: "Telangana Secretariat, Central Secretariat, Khairatabad, Hyderabad, Telangana",
-    options:{
-      content: '<div id="map-marker"><i class="fa fa-map-marker"></i></div>',
-      offset:{
-        y:-65,
-        x:-20
-      }
-    }
-  }},"autofit");
-$gmap.gmap3('get').setMapTypeId("mystyle");
+//var $gmap = $("#gmap"); 
+//$gmap.gmap3({
+//  map: {
+//      options: {
+//          maxZoom:15,
+//          streetViewControl: false,
+//          mapTypeControl: false,
+//      }
+//  },
+//  styledmaptype: {
+//      id: "mystyle",
+//      options: {
+//          name: "Style 1"
+//      },
+//      styles: [
+//          {
+//              featureType: "all",
+//              stylers: [
+//                  {"saturation": -90}, {"gamma": 0.9}
+//              ]
+//          }
+//      ]
+//  },
+//  overlay:{
+//    //Edit following line and enter your own address
+//    address: "Telangana Secretariat, Central Secretariat, Khairatabad, Hyderabad, Telangana",
+//    options:{
+//      content: '<div id="map-marker"><i class="fa fa-map-marker"></i></div>',
+//      offset:{
+//        y:-65,
+//        x:-20
+//      }
+//    }
+//  }},"autofit");
+//$gmap.gmap3('get').setMapTypeId("mystyle");
 
 
 /* home slider for quotes

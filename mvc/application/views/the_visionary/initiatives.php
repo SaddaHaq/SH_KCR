@@ -1,5 +1,18 @@
 <body>
-<?php require APP_PATH.'/layout/submenu_theleader.php'; ?>        
+    <div class="left-mnu"><ul class="lft-mnu-lst lft-mnu-all">
+                        <li class="lft-mnu-item"><a href="/"><i class="icon-home"></i><span class="mnu-itm-ttl">Home</span></a></li>
+                        <li class="lft-mnu-item"><a href="/albums"><i class="icon-picture"></i><span class="mnu-itm-ttl">Albums</span></a></li>
+                       <li class="lft-mnu-item"><a href="#" class="sb-mnu-intiavs"><i class="icon-lightbulb" style="padding-left: 7px;"></i><span class="mnu-itm-ttl">Initiatives<i class="icon-chevron-down" style="font-size: 1em; padding-left: 5px;"></i></span></a>
+                    
+                    <ul class="intivs_sub_menu" style="display: none;"> 
+                    <li><a href="/the_cm/initiatives" class="history newrelease a-l">The CM</a></li>
+                    <li><a href="/the_leader/initiatives" class="history a-l">The Leader</a></li>
+                    <li><a href="/the_visionary/initiatives" class="history a-l">The Visionary</a></li>
+                    </ul></li>
+                        <li class="lft-mnu-item"><a href="https://cm.telangana.gov.in/" target="_blank"><i style="padding-left: 7px;" class="icon-rupee"></i><span class="mnu-itm-ttl">CM relief fund</span></a></li>
+                        <li class="lft-mnu-item"><a href="#"><i class="icon-phone" style="padding-left: 4px;"></i><span class="mnu-itm-ttl">Contact</span></a></li>
+            </ul></div>
+<?php // equire APP_PATH.'/layout/submenu_theleader.php'; ?>        
         <!--Main wrapper-->
         <div id="wrapper">
             <div id="container">
@@ -19,12 +32,12 @@
         <div class="sub-page swiper-slide" data-hash="initiatives" style="overflow: visible;">
                 
                                                  <!--Page side bar--> 
-                                                <div class="page-side">
+                                                 <div class="page-side" style="float: right">
                                                     <div class="inner-wrapper scrollbar">
                 
                                                          <!--Side bar title--> 
                                                         <div class="sub-page-title">
-                                                            <h2 class="mycontainer ">Initiatives</h2>
+                                                            <h2 class="mycontainer ">The Visionary</h2>
                                                         </div>
                                                          <!--/Side bar title--> 
                 
@@ -47,133 +60,7 @@
                                                         <!--Vertival Portfolio Wrapper-->
                                                         <div class="vertical-portfolio">
                                                             <!--Portfolio item-->
-                                                            <div class="portfolio-item row">
-                                                                <div class="item-image col-sm-8">
-                                                                    <img src="<?=DOMAIN?>/assets/img/portfolio/cover05.jpg" alt="" class="img-responsive">
-                                                                </div>
-                                                                <div class="item-info col-sm-4">
-                                                                    <div class="inner-wrapper">
-                                                                        <h3 class="title" style="margin-top: auto;">Mission Kakatiya</h3>
-                                                                        <ul class="list-items">
-                                                                            <li>
-                                                                                <div class="list-label">People Benefited</div>
-                                                                                <div class="list-des">5,00,00,000</div>
-                                                                            </li>
-                                                                            <li>
-                                                                                <div class="list-label">Date</div>
-                                                                                <div class="list-des">Nov 2013</div>
-                                                                            </li>
-                                                                            <li>
-                                                                                <div class="list-label">Duration</div>
-                                                                                <div class="list-des">5 Years</div>
-                                                                            </li>
-                                                                            <li>
-                                                                                <div class="list-label">Category</div>
-                                                                                <div class="list-des">Lakes</div>
-                                                                            </li>
-                                                                        </ul>
-                                                                        <p class="item-description">Mission Kakatiya is the single largest Lake Rejuvenation project taken up in the history of India. It will revive all the lakes in Hyderabad in a bid to restore the ground water level</p>
-                                                                        <a href="/view.html" class="btn btn-lg btn-theme pull-right"><i class="fa fa-arrow-circle-o-up"></i>View</a>
-                                                                    </div>
-                                                                </div>	
-                                                            </div>	
-                                                            <!--/Portfolio item-->	
-                
-                                                            <!--Portfolio item-->
-                                                            <div class="portfolio-item row">
-                                                                <div class="item-image col-sm-8">
-                                                                    <img src="<?=DOMAIN?>/assets/img/portfolio/project2/cover.jpg" alt="" class="img-responsive">
-                                                                </div>
-                                                                <div class="item-info col-sm-4">
-                                                                    <div class="inner-wrapper">
-                                                                        <h3 class="title" style="margin-top: auto;">Aasara</h3>
-                                                                        <ul class="list-items">
-                                                                            <li>
-                                                                                <div class="list-label">People Benefited</div>
-                                                                                <div class="list-des">5,00,00,000</div>
-                                                                            </li>
-                                                                            <li>
-                                                                                <div class="list-label">Date</div>
-                                                                                <div class="list-des">Nov 2013</div>
-                                                                            </li>
-                
-                                                                            <li>
-                                                                                <div class="list-label">Category</div>
-                                                                                <div class="list-des">Scheme</div>
-                                                                            </li>
-                                                                        </ul>
-                                                                        <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                                                        <a href="/view.html" class="btn btn-lg btn-theme pull-right"><i class="fa fa-arrow-circle-o-up"></i>View</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <!--/Portfolio item-->
-                
-                                                            <!--Portfolio item-->
-                                                            <div class="portfolio-item row">
-                                                                <div class="item-image col-sm-8">
-                                                                    <img src="<?=DOMAIN?>/assets/img/portfolio/cover03.jpg" alt="" class="img-responsive">
-                                                                </div>
-                                                                <div class="item-info col-sm-4">
-                                                                    <div class="inner-wrapper">
-                                                                        <h3 class="title" style="margin-top: auto;">Water Grid</h3>
-                                                                        <ul class="list-items">
-                                                                            <li>
-                                                                                <div class="list-label">People Benefited</div>
-                                                                                <div class="list-des">5,00,00,000</div>
-                                                                            </li>
-                                                                            <li>
-                                                                                <div class="list-label">Date</div>
-                                                                                <div class="list-des">Nov 2013</div>
-                                                                            </li>
-                                                                            <li>
-                                                                                <div class="list-label">Duration</div>
-                                                                                <div class="list-des">5 Years</div>
-                                                                            </li>
-                                                                            <li>
-                                                                                <div class="list-label">Category</div>
-                                                                                <div class="list-des">Drinking Water</div>
-                                                                            </li>
-                                                                        </ul>
-                                                                        <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                                                        <a href="/view.html" class="btn btn-lg btn-theme pull-right"><i class="fa fa-arrow-circle-o-up"></i>View</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <!--/Portfolio item-->	
-                
-                                                            <!--Portfolio item-->
-                                                            <div class="portfolio-item row">
-                                                                <div class="item-image col-sm-8">
-                                                                    <img src="<?=DOMAIN?>/assets/img/portfolio/cover02.jpg" alt="" class="img-responsive">
-                                                                </div>
-                                                                <div class="item-info col-sm-4">
-                                                                    <div class="inner-wrapper">
-                                                                        <h3 class="title"style="margin-top: auto;">FAST</h3>
-                                                                        <ul class="list-items">
-                                                                            <li>
-                                                                                <div class="list-label">People Benefited</div>
-                                                                                <div class="list-des">5,00,00,000</div>
-                                                                            </li>
-                                                                            <li>
-                                                                                <div class="list-label">Date</div>
-                                                                                <div class="list-des">Nov 2013</div>
-                                                                            </li>
-                                                                            <li>
-                                                                                <div class="list-label">Duration</div>
-                                                                                <div class="list-des">5 Years</div>
-                                                                            </li>
-                                                                            <li>
-                                                                                <div class="list-label">Category</div>
-                                                                                <div class="list-des">Education</div>
-                                                                            </li>
-                                                                        </ul>
-                                                                        <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                                                        <a href="/view.html" class="btn btn-lg btn-theme pull-right"><i class="fa fa-arrow-circle-o-up"></i>View</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <!--/Portfolio item-->
+                                                           
                                                         </div>
                                                         <!--/Vertival Portfolio Wrapper-->
                                                     </div>
@@ -258,6 +145,7 @@
         <!-- main js engine -->
         <script type="text/javascript" src="<?=DOMAIN?>/assets/js/custom_1.js"></script>
         <script type="text/javascript" src="<?=DOMAIN?>/assets/js/custom.js"></script>
+        <script type="text/javascript" src="<?=DOMAIN?>/assets/js/gal.js"></script>
         <script type="text/javascript">
             
 		/* run what you need

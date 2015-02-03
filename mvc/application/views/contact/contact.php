@@ -37,6 +37,19 @@
 }(document, 'script', 'facebook-jssdk'));</script>        
     </head>
     <body>
+        <div class="left-mnu"><ul class="lft-mnu-lst lft-mnu-all">
+                        <li class="lft-mnu-item"><a href="/"><i class="icon-home"></i><span class="mnu-itm-ttl">Home</span></a></li>
+                        <li class="lft-mnu-item"><a href="/albums"><i class="icon-picture"></i><span class="mnu-itm-ttl">Albums</span></a></li>
+                        <li class="lft-mnu-item"><a href="#" class="sb-mnu-intiavs"><i class="icon-lightbulb" style="padding-left: 7px;"></i><span class="mnu-itm-ttl">Initiatives<i class="icon-chevron-down" style="font-size: 1em; padding-left: 5px;"></i></span></a>
+                    
+                    <ul class="intivs_sub_menu" style="display: none;"> 
+                    <li><a href="/the_cm/initiatives" class="history newrelease a-l">The CM</a></li>
+                    <li><a href="/the_leader/initiatives" class="history a-l">The Leader</a></li>
+                    <li><a href="/the_visionary/initiatives" class="history a-l">The Visionary</a></li>
+                    </ul></li>
+                        <li class="lft-mnu-item"><a href="https://cm.telangana.gov.in/" target="_blank"><i style="padding-left: 7px;" class="icon-rupee"></i><span class="mnu-itm-ttl">CM relief fund</span></a></li>
+                        <li class="lft-mnu-item"><a href="/contact"><i class="icon-phone" style="padding-left: 4px;"></i><span class="mnu-itm-ttl">Contact</span></a></li>
+            </ul></div>
         <!--<a id="main-mnu" class="main-mnu" href="#"><img src="assets/img/logo_kcr.png" width="100" height="100" /></a>-->
                 <div id="ad-mnu" class="ad-mnu transition">
                     <h3 class="men-title">Gallery</h3>
@@ -77,68 +90,30 @@
             <!--Contact Left Side-->	
             <div id="contact-left">
                 <div class="inner-wrapper scrollbar">
-                    <div class="cnt-hdng">
+<!--                    <div class="cnt-hdng">
                         <a href="/"><h1>Home</h1></a>
                         <a href="albums"><h1>Gallery</h1></a>
-                    </div>
-                    <div id="contact">
-                        <div class="socl-strip"> 
-                                     <h3>Follow:</h3>
-                            <div class="str-scl">
-                                <div class="scl">
-                                <a href="https://www.facebook.com/TelanganaCMO" target="_blank">
-                                    <div class="bg transition in"></div>
-                                    <i class="fa icon-facebook"></i>
-                                </a>
-                                <a href="https://twitter.com/telanganacmo" target="_blank">
-                                    <div class="bg transition in"></div>
-                                    <i class="fa icon-twitter"></i>
-                                </a>
-                                <a href="https://plus.google.com/107017123208744821474/posts" target="_blank">
-                                    <div class="bg transition in"></div>
-                                    <i class="fa icon-google-plus"></i>
-                                </a>
-                                <a href="https://www.youtube.com/user/TelanganaCMO" target="_blank">
-                                    <div class="bg transition in"></div>
-                                    <i class="fa icon-youtube"></i>
-                                </a>
-                                </div></div>
-                        </div>
-<!--                        <div class="adrs">
-                            <h2>Secretariat</h2>
-                            <p>C Block Secretariat, Opposite Lumbini Park,</p>
-                            <p>Hyderabad – 500063 Telangana</p>
-                            <p><i class="icon-home"></i> CM office Telangana</p>
-                            <p><i class="icon-phone-sign"></i> 040 22335566</p>
-                            <p><i class="icon-inbox"></i> cm@ts.gov.in</p>
--->                           
-<!--<h3>Connect</h3>
--->                            
-<!--<div class="scl">-->
-<!--                                <a href="https://www.facebook.com/TelanganaCMO" target="_blank">
-                                    <div class="bg transition in"></div>
-                                    <i class="fa icon-facebook"></i>
-                                </a>
-                                <a href="https://twitter.com/telanganacmo" target="_blank">
-                                    <div class="bg transition in"></div>
-                                    <i class="fa icon-twitter"></i>-->
-<!--                                </a>
-                                <a href="https://plus.google.com/107017123208744821474/posts" target="_blank">
-                                    <div class="bg transition in"></div>
-                                    <i class="fa icon-google-plus"></i>
-                                </a>
-                                <a href="https://www.youtube.com/user/TelanganaCMO" target="_blank">
-                                    <div class="bg transition in"></div>
-                                    <i class="fa icon-youtube"></i>
-                                </a>
-                            </div>-->
-<!--
-                        </div>
-                    </div>                        -->
-                    <div class="cnt-dv">
+                    </div>-->
+                    
+                        
+
+                    <div class="ofcl-websts">
                         <div class="fb-feed">
                             <div class="fb-feed-hd"><i class="icon-facebook-sign"></i><h2>Facebook</h2></div>
-                        <div class="fb-like-box" data-href="https://www.facebook.com/TelanganaCMO" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false" data-border-color="#fff" width="300px" height="200px;"></div>
+                            <div class="fb-like-box" data-href="https://www.facebook.com/TelanganaCMO" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false" data-border-color="#fff" width="360px"></div>
+                        </div>
+                        <div class="fb-feed">
+                            <div class="fb-feed-hd"><i class="icon-twitter" style="color: #00ACEE"></i><h2>Twitter</h2></div>
+                            <a   width="350" height="391" class="twitter-timeline"  href="https://twitter.com/TelanganaCMO"  data-widget-id="496943125877624832">Tweets by @TelanganaCMO</a>
+                            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                        </div>              
+                    </div>
+                    <div class="cnt-dv">
+                         
+                        <div class="adrs">
+                            <h2>TELANGANA Secretariat</h2>
+                            <p>C Block Secretariat, Opposite Lumbini Park,</p>
+                            <p>Hyderabad – 500063 Telangana</p>
                         </div>
                         <h3>EMAIL US</h3>
                         <p>If you have any questions or comments regarding our services, please do not hesitate to tell us!</p>
@@ -160,24 +135,13 @@
                         <!--/Contact form-->
                         <div class="clearfix"></div>
                     </div>
-                    <div class="ofcl-websts">
-                        <div class="fb-feed">
-                            <div class="fb-feed-hd"><i class="icon-twitter" style="color: #00ACEE"></i><h2>Twitter</h2></div>
-                        <a   width="300" height="391" class="twitter-timeline"  href="https://twitter.com/TelanganaCMO"  data-widget-id="496943125877624832">Tweets by @TelanganaCMO</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                        </div>                    
-    <!--<h2>Official websites</h2>-->
-                        <!--<h3><a href="http://www.telangana.gov.in/Pages/PortalHome.aspx" target="_blank">Telangana CMO</a></h3>-->
 
-                        <div class="adrs">
-                            <h2>TELANGANA Secretariat</h2>
-                            <p>C Block Secretariat, Opposite Lumbini Park,</p>
-                            <p>Hyderabad – 500063 Telangana</p>
-<!--                            <p><i class="icon-home"></i> CM office Telangana</p>
-                            <p><i class="icon-phone-sign"></i> 040 22335566</p>
-                            <p><i class="icon-inbox"></i> cm@ts.gov.in</p>-->
-                            <!--<h3>Connect</h3>-->
-<!--                            <div class="scl">
+            </div>
+            <div id="contact">
+                <div class="socl-strip"> 
+                                     <h3>Follow:</h3>
+                            <div class="str-scl">
+                                <div class="scl">
                                 <a href="https://www.facebook.com/TelanganaCMO" target="_blank">
                                     <div class="bg transition in"></div>
                                     <i class="fa icon-facebook"></i>
@@ -194,24 +158,11 @@
                                     <div class="bg transition in"></div>
                                     <i class="fa icon-youtube"></i>
                                 </a>
-                            </div>-->
+                                </div></div>
                         </div>
-                    </div>
-                </div>
+
+        </div>
             </div>
-            <!--/Contact Left Side-->	
-
-            <!--Contact Right Side-->	
-            <!--            <div id="contact-right">
-                            Google map container	
-                            <div  id="gmap-container">
-                                <div id="gmap" class="swiper-no-swiping"></div>
-                            </div>
-                            /Google map container	
-            
-                        </div>-->
-            <!--/Contact Right Side-->	
-
         </div>
         <!-- /Contact me -->
         <script type="text/javascript" src="assets/js/vendors/jquery-1.11.0.min.js"></script>
@@ -278,6 +229,7 @@
         <!-- main js engine -->
         <script type="text/javascript" src="assets/js/custom_1.js"></script>
         <script type="text/javascript" src="assets/js/custom.js"></script>
+        <script type="text/javascript" src="assets/js/gal.js"></script>
 
         <!--/Javascript plugins-->
         <script>

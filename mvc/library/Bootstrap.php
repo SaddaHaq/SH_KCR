@@ -18,6 +18,14 @@ class Bootstrap {
     require APP_PATH.'/models/index_model.php';
     (new Index_Model()) -> get_video_urls();
     }
+    elseif ($url[0] == 'index' && $url[1] == 'initiatives_input'){
+    require APP_PATH.'/models/index_model.php';
+    (new Index_Model()) -> initiatives_input();
+    }
+    elseif ($url[0] == 'index' && $url[1] == 'get_initiatives'){
+    require APP_PATH.'/models/index_model.php';
+    (new Index_Model()) -> get_initiatives();
+    }
     else{
     require APP_PATH.'/controllers/index.php';
     (new Index_Controller()) ->index($url);

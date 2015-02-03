@@ -13,6 +13,7 @@ class Index_Controller extends Controller{
           case 'blog':
           case 'albums':
           case 'news':
+          case 'forms':
             $this -> view -> render('the_cm/'.$params[1]);
             break;
           default:
