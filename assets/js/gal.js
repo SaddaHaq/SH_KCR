@@ -62,7 +62,7 @@ if(path == '/albums'){
            for(i=2; i<lngth; i++){
                var ttl = data[i].replace(/-/g, ' ');
            $('.gamma-gallery').append('<li><div data-alt="img03" data-url="gallery/'+data[i]+'" data-description="<h3>' + ttl + '</h3>" data-max-width="1800" data-max-height="1350">'+
-                                '<div data-src="assets/img/albums/'+data[i]+'/albm-img.jpg" data-min-width="125"></div>'+
+                                '<div data-src="assets/img/albums/'+data[i]+'/albm-img.jpg" data-min-width="60"></div>'+
                                 '<noscript>'+
                                 '<img src="assets/img/albums/'+data[i]+'/albm-img.jpg"/></noscript></div></li>');
        };
@@ -145,7 +145,7 @@ if(path[1] == 'gallery'){
                ttl = ttl.split('.');
                ttl = ttl[0];
            $('.gamma-gallery').append('<li><div data-alt="img03" data-description="<h3>' + ttl + '</h3>" data-max-width="1800" data-max-height="1350">'+
-                                '<div data-src="/assets/img/albums/'+id+'/'+data[i]+'" data-min-width="138"></div>'+
+                                '<div data-src="/assets/img/albums/'+id+'/'+data[i]+'" data-min-width="100"></div>'+
                                 '<noscript>'+
                                 '<img src="assets/img/albums/'+id+'/'+data[i]+'"/></noscript></div></li>');
        };
