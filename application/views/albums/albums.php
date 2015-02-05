@@ -43,9 +43,10 @@
     <div class="mbl-mnu-hdr hidden-md hidden-lg hidden-sm"><div class="mbl-mnu" style="top: 16px;"><i class="icon-list"></i></div><h3>Albums</h3></div>
         
         <div class="container r-pg-cnt">
+            <div class="albms-tabs hidden-md hidden-lg hidden-sm"><h3 class="a-phts">Photos</h3> <h3 class="a-vds">Videos</h3></div>
             <div class="albm-phts">
             <div class="main">
-                <header class="clearfix">
+                <header class="clearfix hidden-xs">
                     <h1>Photos</h1>
                                         <div class="support-note">
                         <span class="note-ie">Sorry, only modern browsers.</span>
@@ -64,7 +65,7 @@
                 
             </div>
             <div class="vids-albms">
-            <header class="clearfix">
+            <header class="clearfix hidden-xs">
                     <h1>Videos</h1>
                     <div class="support-note">
                         <span class="note-ie">Sorry, only modern browsers.</span>

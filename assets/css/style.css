@@ -2341,7 +2341,7 @@ ul.featured-hex li .hex-des a:hover{
     }
     
     .vdeo-itm h4{
-        font-size: 0.9em;
+        font-size: 1.2em;
     }
     .vdo-play{
     margin-left: 10.5% !important;
@@ -3453,11 +3453,11 @@ color: white !important;
 }
 
 .albm-phts{
-    width: 70% !important;
+    width: 70%;
     float: left;
 }
 .vids-albms{
-    width: 30% !important;
+    width: 30%;
     float: left;
     padding-top: 11px;
     margin: 0 auto;
@@ -3611,4 +3611,107 @@ font-size: 1.7em;
 }
 .mbl-mnu-hdr h3{
    color: #333 !important;
+}
+.albms-tabs{
+    position: relative;
+text-align: left;
+top: 70px;
+left: -20px;
+}
+.albms-tabs h3{
+    display: inline-block;
+float: left;
+
+padding: 7px;
+color: #333 !important;
+cursor: pointer;
+font-size: 1.3em;
+padding-left: 17px;
+}
+.a-phts{
+    margin-right:49px;
+    background-color: #F74895;
+}
+.a-phts:after{
+
+border-left: 45px solid #F74895 !important;
+content: '';
+display: block;
+position: absolute;
+top: 20px;
+right: 0;
+left: 88px;
+width: 0;
+height: 0;
+border-top: 0px solid transparent;
+border-bottom: 36px solid transparent;
+}
+
+.a-phts.on:after{
+border-left: 45px solid #e6e6e6 !important;
+content: '';
+display: block;
+position: absolute;
+top: 20px;
+right: 0;
+left: 88px;
+width: 0;
+height: 0;
+border-top: 0px solid transparent;
+border-bottom: 36px solid transparent;
+}
+.a-vds:before{
+border-right: 45px solid #e6e6e6 !important;
+content: '';
+display: block;
+position: absolute;
+top: 20px;
+right: 0;
+left: 92px;
+width: 0;
+height: 0;
+border-top: 36px solid transparent;
+border-bottom: 0px solid transparent;
+}
+.a-vds.on:before{
+border-right: 45px solid #F74895 !important;
+content: '';
+display: block;
+position: absolute;
+top: 20px;
+right: 0;
+left: 92px;
+width: 0;
+height: 0;
+border-top: 36px solid transparent;
+border-bottom: 0px solid transparent;
+}
+.a-vds{
+    background-color: #e6e6e6;
+}
+.a-vds:after{
+   border-left: 45px solid #e6e6e6 !important;
+content: '';
+display: block;
+position: absolute;
+top: 20px;
+right: 0;
+left: 222px;
+width: 0;
+height: 0;
+border-top: 0px solid transparent;
+border-bottom: 36px solid transparent;
+}
+.a-vds.on:after{
+   border-left: 45px solid #F74895 !important;
+content: '';
+display: block;
+position: absolute;
+top: 20px;
+right: 0;
+left: 222px;
+width: 0;
+height: 0;
+border-top: 0px solid transparent;
+border-bottom: 36px solid transparent;
 }

@@ -246,4 +246,26 @@ $('.mbl-mnu').click(function(){
             $(this).css({'color': '#333'})
         }
     });
+    
+    $('.a-vds').click(function(){
+     $('.albm-phts').css({'display': 'none'});
+     $('.vids-albms').show();
+     
+     $('.a-phts').css({'background-color': '#e6e6e6'});
+     $('.a-phts').addClass('on');
+     $(this).addClass('on');
+     $(this).css({'background-color': '#F74895'});
+    });
+    
+    $('.a-phts').click(function(){
+     $('.vids-albms').css({'display': 'none'});
+     $('.albm-phts').show();
+     
+     $('.a-vds').css({'background-color': '#e6e6e6'});
+     $('.a-vds').removeClass('on');
+     $(this).removeClass('on');
+     $(this).css({'background-color': '#F74895'});
+     
+    });
+    
 });

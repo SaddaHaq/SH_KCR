@@ -308,6 +308,26 @@ button.gamma-btn-sspause:before {
         .gamma-single-view{
             margin-top: 60px !important;
         }
+        .albm-phts{
+         width: 100% !important;   
+        }
+        .vids-albms{
+            display: none;
+            width: 100%;
+        }
+        .vdo-play img{
+            cursor: pointer;
+            max-width: 15%;
+        }
+        .vdo-play{
+position: absolute;
+margin-left: 190px !important;
+margin-top: 100px !important;
+opacity: 0.9;
+}
+#video-items{
+    margin-top: 20px;
+}
 }
 
 @media screen and (max-width: 500px) {
