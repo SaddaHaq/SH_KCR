@@ -36,57 +36,24 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>        
     </head>
-    <body>
-        <div class="left-mnu"><ul class="lft-mnu-lst lft-mnu-all">
-                        <li class="lft-mnu-item"><a href="/"><i class="icon-home"></i><span class="mnu-itm-ttl">Home</span></a></li>
-                        <li class="lft-mnu-item"><a href="/albums"><i class="icon-picture"></i><span class="mnu-itm-ttl">Albums</span></a></li>
-                        <li class="lft-mnu-item"><a href="#" class="sb-mnu-intiavs"><i class="icon-lightbulb" style="padding-left: 7px;"></i><span class="mnu-itm-ttl">Initiatives<i class="icon-chevron-down" style="font-size: 1em; padding-left: 5px;"></i></span></a>
-                    
-                    <ul class="intivs_sub_menu" style="display: none;"> 
+    <body class="collaps-side">
+        
+        <div class="left-mnu hidn-sidbar hidden-xs"><ul class="lft-mnu-lst" style="margin-left: -39px;">
+            <li class="lft-mnu-item"><a href="/"><i class="icon-home"></i><span class="mnu-itm-ttl">Home</span></a></li>
+            <li class="lft-mnu-item"><a href="/albums"><i class="icon-picture"></i><span class="mnu-itm-ttl">Albums</span></a></li>
+            <li class="lft-mnu-item"><a href="#" class="sb-mnu-intiavs"><i class="icon-lightbulb" style="padding-left: 7px;"></i><span class="mnu-itm-ttl">Initiatives<i class="icon-chevron-down" style="font-size: 1em; padding-left: 5px; padding-top: 5px; opacity: 0"></i></span></a>
+
+                <ul class="intivs_sub_menu" style="display: none;"> 
                     <li><a href="/the_cm/initiatives" class="history newrelease a-l">The CM</a></li>
                     <li><a href="/the_leader/initiatives" class="history a-l">The Leader</a></li>
                     <li><a href="/the_visionary/initiatives" class="history a-l">The Visionary</a></li>
-                    </ul></li>
-                        <li class="lft-mnu-item"><a href="https://cm.telangana.gov.in/" target="_blank"><i style="padding-left: 7px;" class="icon-rupee"></i><span class="mnu-itm-ttl">CM relief fund</span></a></li>
-                        <li class="lft-mnu-item"><a href="/contact"><i class="icon-phone" style="padding-left: 4px;"></i><span class="mnu-itm-ttl">Contact</span></a></li>
-            </ul></div>
+                </ul></li>
+            <li class="lft-mnu-item"><a href="https://cm.telangana.gov.in/" target="_blank"><i style="padding-left: 7px;" class="icon-rupee"></i><span class="mnu-itm-ttl">Donate</span></a></li>
+            <li class="lft-mnu-item"><a href="/contact"><i class="icon-phone" style="padding-left: 4px;"></i><span class="mnu-itm-ttl">Contact</span></a></li>
+        </ul></div>
         <!--<a id="main-mnu" class="main-mnu" href="#"><img src="assets/img/logo_kcr.png" width="100" height="100" /></a>-->
-                <div id="ad-mnu" class="ad-mnu transition">
-                    <h3 class="men-title">Gallery</h3>
-                    <section>
-                        <div class="diamond" data-tag="My journey from a common man to a freedom fighter">
-                            <div class="out-dmnd"></div>
-                            <div class="in-dmnd transition in"></div>
-                            <div class="txt-dmnd">
-                            <div class="txt">Gallery</div>
-                            </div>
-                        </div>
-                            <div class="diamond" data-tag="Donate for a better Telangana">
-                            <div class="in-dmnd transition in"></div>
-                            <div class="txt-dmnd adj-top">
-                                <div class="txt">CM <br> Relief Fund</div>
-                            </div>
-                            </div>
-                        <div class="diamond" data-tag="My journey from a common man to a freedom fighter">
-                            <div class="out-dmnd"></div>
-                            <div class="in-dmnd transition in"></div>
-                            <div class="txt-dmnd">
-                            <div class="txt">Blog</div>
-                            </div>
-                        </div>
-                        <div class="diamond" id="shw-top-mnu">
-                            <div class="out-dmnd"></div>
-                            <a href="/index.html">
-                                <div class="in-dmnd transition in"></div>
-                                <div class="txt-dmnd adj-top">
-                                    <div class="txt">Back<br>to home</div>
-                                </div>
-                            </a>
-                        </div>
-                    </section>
-                    <p class="tag"></p>
-                </div>
-        <div class="sub-page swiper-slide" data-hash="contact-erica">
+                
+        <div class="sub-page swiper-slide r-pg-cnt" data-hash="contact-erica">
             <!--Contact Left Side-->	
             <div id="contact-left">
                 <div class="inner-wrapper scrollbar">

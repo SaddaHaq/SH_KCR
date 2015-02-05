@@ -188,9 +188,9 @@ $(document).ready(function () {
                 var l = data.length;
                 var i;
                 for (i = 0; i < l; i++) {
-                    $('.vertical-portfolio').append('<div class="portfolio-item row"><div class="item-image col-sm-6">' +
+                    $('.vertical-portfolio').append('<div class="portfolio-item row"><div class="item-image col-sm-5">' +
                             '<img src="/assets/img/portfolio/' + data[i]._image_ + '" alt="" class="img-responsive">' +
-                            '</div><div class="item-info col-sm-6"><div class="inner-wrapper">' +
+                            '</div><div class="item-info col-sm-5"><div class="inner-wrapper">' +
                             '<h3 class="title" style="margin-top: auto;">' + data[i]._title_ + '</h3>' +
                             '<p class="item-description">' + data[i]._description_ + '</p>' +
                             '</div></div></div>');
@@ -212,9 +212,9 @@ $(document).ready(function () {
                 var l = data.length;
                 var i;
                 for (i = 0; i < l; i++) {
-                    $('.vertical-portfolio').append('<div class="portfolio-item row"><div class="item-image col-sm-6">' +
+                    $('.vertical-portfolio').append('<div class="portfolio-item row"><div class="item-image col-sm-5">' +
                             '<img src="/assets/img/portfolio/' + data[i]._image_ + '" alt="" class="img-responsive">' +
-                            '</div><div class="item-info col-sm-6"><div class="inner-wrapper">' +
+                            '</div><div class="item-info col-sm-5"><div class="inner-wrapper">' +
                             '<h3 class="title" style="margin-top: auto;">' + data[i]._title_ + '</h3>' +
                             '<p class="item-description">' + data[i]._description_ + '</p>' +
                             '</div></div></div>');
@@ -237,9 +237,9 @@ $(document).ready(function () {
                 var l = data.length;
                 var i;
                 for (i = 0; i < l; i++) {
-                    $('.vertical-portfolio').append('<div class="portfolio-item row"><div class="item-image col-sm-6">' +
+                    $('.vertical-portfolio').append('<div class="portfolio-item row"><div class="item-image col-sm-5">' +
                             '<img src="/assets/img/portfolio/' + data[i]._image_ + '" alt="" class="img-responsive">' +
-                            '</div><div class="item-info col-sm-6"><div class="inner-wrapper">' +
+                            '</div><div class="item-info col-sm-5"><div class="inner-wrapper">' +
                             '<h3 class="title" style="margin-top: auto;">' + data[i]._title_ + '</h3>' +
                             '<p class="item-description">' + data[i]._description_ + '</p>' +
                             '</div></div></div>');
@@ -247,4 +247,8 @@ $(document).ready(function () {
             }
         });
     }
+    
+    
+    
+    
 });

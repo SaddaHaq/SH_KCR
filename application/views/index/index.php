@@ -229,7 +229,7 @@
             <div id="container">
                 <!-- Home Page -->
                 <div id ="home" class="sub-page swiper-slide">
-                    <div id="hello-inner" style="left: 0%;">
+                    <div id="hello-inner" class="hidden-xs" style="left: 0%;">
                         <div id="hello-contents" style="visibility: inherit; opacity: 1; left: 32px;">
                             <div class="sld-hdng"></div>
                             <h1 class="hidden sngl-hdng">Kalvakuntla Chandrasekhar Rao</h1>

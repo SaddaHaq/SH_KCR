@@ -1,5 +1,6 @@
 <body class="collaps-side">
-    <div class="left-mnu hidn-sidbar"><ul class="lft-mnu-lst" style="margin-left: -39px;">
+    <!--desktop menu-->
+    <div class="left-mnu hidn-sidbar hidden-xs"><ul class="lft-mnu-lst" style="margin-left: -39px;">
             <li class="lft-mnu-item"><a href="/"><i class="icon-home"></i><span class="mnu-itm-ttl">Home</span></a></li>
             <li class="lft-mnu-item"><a href="/albums"><i class="icon-picture"></i><span class="mnu-itm-ttl">Albums</span></a></li>
             <li class="lft-mnu-item"><a href="#" class="sb-mnu-intiavs"><i class="icon-lightbulb" style="padding-left: 7px;"></i><span class="mnu-itm-ttl">Initiatives<i class="icon-chevron-down" style="font-size: 1em; padding-left: 5px; padding-top: 5px; opacity: 0"></i></span></a>
@@ -12,16 +13,33 @@
             <li class="lft-mnu-item"><a href="https://cm.telangana.gov.in/" target="_blank"><i style="padding-left: 7px;" class="icon-rupee"></i><span class="mnu-itm-ttl">Donate</span></a></li>
             <li class="lft-mnu-item"><a href="/contact"><i class="icon-phone" style="padding-left: 4px;"></i><span class="mnu-itm-ttl">Contact</span></a></li>
         </ul></div>
+    <!--desktop menu-->
+    
+    <!--mobile menu-->
+    <div class="left--mbl-mnu hidn-mbl-sidbar"><ul class="lft-mnu-lst" style="margin-left: -39px;">
+            <li class="lft--mbl-mnu-item"><a href="/"><i class="icon-home"></i><span class="mnu-itm-ttl">Home</span></a></li>
+            <li class="lft--mbl-mnu-item"><a href="/albums"><i class="icon-picture"></i><span class="mnu-itm-ttl">Albums</span></a></li>
+            <li class="lft--mbl-mnu-item"><a href="#" class="sb-mnu-intiavs"><i class="icon-lightbulb" style="padding-left: 7px;"></i><span class="mnu-itm-ttl">Initiatives<i class="icon-chevron-down" style="font-size: 1em; padding-left: 5px; padding-top: 5px;"></i></span></a>
+                <ul class="intivs_sub_menu" style="display: none;"> 
+                    <li><a href="/the_cm/initiatives" class="history newrelease a-l">The CM</a></li>
+                    <li><a href="/the_leader/initiatives" class="history a-l">The Leader</a></li>
+                    <li><a href="/the_visionary/initiatives" class="history a-l">The Visionary</a></li>
+                </ul></li>
+            <li class="lft--mbl-mnu-item"><a href="https://cm.telangana.gov.in/" target="_blank"><i style="padding-left: 7px;" class="icon-rupee"></i><span class="mnu-itm-ttl">Donate</span></a></li>
+            <li class="lft--mbl-mnu-item"><a href="/contact"><i class="icon-phone" style="padding-left: 4px;"></i><span class="mnu-itm-ttl">Contact</span></a></li>
+        </ul></div>
+    <!--mobile menu-->
+    
+    
+    
     <?php // require APP_PATH . '/layout/submenu_thecm.php'; ?>
-    <!--Main wrapper-->
+
     <div id="wrapper">
         <div id="container">
 
-            <!-- Upstream -->
             <div id="upstream">
 
             </div>
-            <!-- /Upstream -->
 
             <!-- Contents -->
             <div id="contents">
@@ -32,15 +50,16 @@
                         <div class="sub-page swiper-slide" data-hash="initiatives" style="overflow: visible;">
                             <!--Page side bar--> 
                             <div class="page-side" style="float: right">
+                                <div class="mbl-mnu"><i class="icon-list"></i></div>
                                 <div class="inner-wrapper scrollbar">
-
+                                    <div class="mbl-mnu"><i class="icon-list"></i></div>
                                     <div class="sub-page-title">
                                         <h2 class="mycontainer ">The CM</h2>
                                     </div>  
 
                                     <img src="<?= DOMAIN ?>/assets/img/portfolio/cover14.jpg" class="img-responsive hidden-xs" alt="img">
 
-                                    <div class="mycontainer hidden-xs ">
+                                    <div class="mycontainer hidden-xs">
                                         <p style="margin-top:16px;">The Economy of Telangana is mainly driven by agriculture, IT and industry. Two important rivers of India, the Godavari and Krishna, flow through the state, providing irrigation. Farmers in Telangana mainly depend on rain-fed water sources for irrigation. Hyderabad is the second largest exporter of IT Services in India. It is also one of India's largest industrial hubs. KCR has initiated a number of initiatives to help grow the economy of Telangana. Here's a collection of them.</p>
                                     </div>
                                 </div>
@@ -48,7 +67,7 @@
                             <!--/Page side bar--> 
 
                             <!--Page main contents--> 
-                            <div class="page-container" style="width: 80%">
+                            <div class="page-container">
                                 <div class="inner-wrapper scrollbar">
                                     <!--Vertival Portfolio Wrapper-->
                                     <div class="vertical-portfolio">

@@ -412,7 +412,7 @@ var Gamma = (function() {
 					maxheight : $picEl.data( 'maxHeight' )
 				});
 
-				$( '<a href='+hyprlnk+'></a>' ).addClass( 'gamma-description' ).html(description+'<h5>(Clik for more images)<h5>').insertAfter( $picEl );
+				$( '<a href='+hyprlnk+'></a>' ).addClass( 'gamma-description' ).html(description+'<h5 class="hidden-xs">(Clik for more images)<h5>').insertAfter( $picEl );
 
 				$( '<img/>' ).attr( {
 					alt : $picEl.data( 'alt' ),

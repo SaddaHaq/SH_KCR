@@ -299,10 +299,12 @@ button.gamma-btn-sspause:before {
 	}
 
 	.gamma-description h3 {
-		font-size: 14px;
+		font-size: 11px;
 		padding: 0 5px;
 	}
-
+        .main{
+            margin-top: 40px
+        }
 }
 
 @media screen and (max-width: 500px) {
