@@ -1,5 +1,5 @@
          <link rel="icon" type="image/png" href="../assets/img/logo_kcr.png"/>
-        <link rel="stylesheet" type="text/css" href="/assets/css/gal/style.css"/>
+        <link rel="stylesheet" type="text/css" href="/assets/css/gal/style.css?v=1"/>
         <script src="../assets/js/gal/modernizr.custom.70736.js"></script>
         <noscript><link rel="stylesheet" type="text/css" href="css/noJS.css"/></noscript>
         <!--[if lte IE 7]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
@@ -200,12 +200,12 @@
             </div><!--/main-->
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-        <script type="text/javascript" src="../assets/js/gal.js"></script>
+        <script type="text/javascript" src="../assets/js/gal.js?v=1"></script>
         <script type="text/javascript" src="../assets/js/gal/jquery.masonry.min.js"></script>
         <script type="text/javascript" src="../assets/js/gal/jquery.history.js"></script>
         <script type="text/javascript" src="../assets/js/gal/js-url.min.js"></script>
         <script type="text/javascript" src="../assets/js/gal/jquerypp.custom.js"></script>
-        <script type="text/javascript" src="../assets/js/gal/gamma1.js"></script>
+        <script type="text/javascript" src="../assets/js/gal/gamma1.js?v=1"></script>
         <script type="text/javascript">
         </script>	
     </body>

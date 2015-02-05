@@ -1063,8 +1063,8 @@
         <script type="text/javascript" src="assets/js/jquery.owwwlab-kenburns.js"></script>
 
         <!-- main js engine -->
-        <script type="text/javascript" src="assets/js/custom_1.js"></script>
-        <script type="text/javascript" src="assets/js/custom.js"></script>
+        <script type="text/javascript" src="assets/js/custom_1.js?v=1"></script>
+        <script type="text/javascript" src="assets/js/custom.js?v=1"></script>
         <script type="text/javascript">
             kenburn.init();
         </script>

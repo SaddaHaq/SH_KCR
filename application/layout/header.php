@@ -5,15 +5,15 @@
         <title>Kalvakuntla Chandrasekhar Rao -- Chief Minsiter of Telangana</title>
         <!--CSS styles-->
         <link rel="icon" type="image/png" href="<?=DOMAIN?>/assets/img/fav_icon.png">
-        <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/vendors/font-awesome.min.css"> 
+        <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/vendors/font-awesome.min.css?v=1"> 
         <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/vendors/bootstrap.css" >
-        <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/style.css">
-        <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/diamonds.css">
+        <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/style.css?v=1">
+        <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/diamonds.css?v=1">
         <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/skins/skin3/style.css">
+        <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/skins/skin3/style.css?v=1">
         <link rel='stylesheet' type='text/css' href='<?=DOMAIN?>/assets/css/font-awesome5152.css?ver=1.0'/>
-        <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/vendors/blueimp-gallery.css">
+        <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/vendors/blueimp-gallery.css?v=1">
         <!--/CSS styles-->
         
         <!-- Mobile Specific Metas -->

@@ -160,9 +160,9 @@
         <script type="text/javascript" src="<?=DOMAIN?>/assets/js/jquery.owwwlab-kenburns.js"></script>
 
         <!-- main js engine -->
-        <script type="text/javascript" src="<?=DOMAIN?>/assets/js/custom_1.js"></script>
-        <script type="text/javascript" src="<?=DOMAIN?>/assets/js/custom.js"></script>
-        <script type="text/javascript" src="<?=DOMAIN?>/assets/js/gal.js"></script>
+        <script type="text/javascript" src="<?=DOMAIN?>/assets/js/custom_1.js?v=1"></script>
+        <script type="text/javascript" src="<?=DOMAIN?>/assets/js/custom.js?v=1"></script>
+        <script type="text/javascript" src="<?=DOMAIN?>/assets/js/gal.js?v=1"></script>
         <script type="text/javascript">
             
 		/* run what you need
