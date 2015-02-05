@@ -214,7 +214,7 @@ button.gamma-btn-sspause:before {
 	display: block;
 	width: 20px;
 	height: 38px;
-	top: 50%;
+	top: 25%;
 	margin-top: -19px;
 	left: 20px;
 	cursor: pointer;
@@ -304,6 +304,9 @@ button.gamma-btn-sspause:before {
 	}
         .main{
             margin-top: 40px
+        }
+        .gamma-single-view{
+            margin-top: 60px !important;
         }
 }
 

@@ -240,8 +240,10 @@ $('.mbl-mnu').click(function(){
         
         if($('.left--mbl-mnu').width() == 0){
            $('.left--mbl-mnu').css({'width': '220px'});
+           $(this).css({'color': '#F74895'})
         }else{
             $('.left--mbl-mnu').css({'width': '0px'});
+            $(this).css({'color': '#333'})
         }
     });
 });

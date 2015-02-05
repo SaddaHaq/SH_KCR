@@ -3360,7 +3360,7 @@ margin: auto;
 }
 .left--mbl-mnu{
 background: #000;
-top: 60px;
+top: 40px;
 left: 0;
 width: 0px;
 position: fixed;
@@ -3465,7 +3465,7 @@ color: white !important;
     margin-top: 7px;
 }
 .vids-albms h1{
-    font-size: 2em !important;
+    font-size: 1.6em !important;
 }
 .vdeo-itm{
     background-color: white;    
