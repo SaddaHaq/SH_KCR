@@ -3360,7 +3360,7 @@ margin: auto;
 }
 .left--mbl-mnu{
 background: #000;
-top: 40px;
+top: 60px;
 left: 0;
 width: 0px;
 position: fixed;
@@ -3640,7 +3640,7 @@ display: block;
 position: absolute;
 top: 20px;
 right: 0;
-left: 88px;
+left: 87.5px;
 width: 0;
 height: 0;
 border-top: 0px solid transparent;
@@ -3696,7 +3696,7 @@ display: block;
 position: absolute;
 top: 20px;
 right: 0;
-left: 222px;
+left: 221.5px;
 width: 0;
 height: 0;
 border-top: 0px solid transparent;
