@@ -7,7 +7,7 @@
         <link rel="icon" type="image/png" href="<?=DOMAIN?>/assets/img/fav_icon.png">
         <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/vendors/font-awesome.min.css?v=1"> 
         <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/vendors/bootstrap.css" >
-        <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/style.css?v=1">
+        <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/style.css?v=2">
         <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/diamonds.css?v=1">
         <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="<?=DOMAIN?>/assets/css/normalize.css">

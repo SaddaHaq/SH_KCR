@@ -1,5 +1,5 @@
          <link rel="icon" type="image/png" href="../assets/img/logo_kcr.png"/>
-        <link rel="stylesheet" type="text/css" href="/assets/css/gal/style.css?v=1"/>
+        <link rel="stylesheet" type="text/css" href="/assets/css/gal/style.css?v=2"/>
         <script src="../assets/js/gal/modernizr.custom.70736.js"></script>
         <noscript><link rel="stylesheet" type="text/css" href="css/noJS.css"/></noscript>
         <!--[if lte IE 7]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
