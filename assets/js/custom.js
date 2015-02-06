@@ -1,6 +1,7 @@
 
 /* home kenburn slider
  ----------------------------------------------*/
+if($(window).width() >= 480){
 var kbs, kenburn = {
     settings: {
         viewport: $('#kb-container')
@@ -29,6 +30,36 @@ var kbs, kenburn = {
 
     }
 };
+}else{
+ var kbs, kenburn = {
+    settings: {
+        viewport: $('#kb-container')
+    },
+    init: function () {
+        kbs = this.settings;
+        this.bindUIActions();
+        this.buildKenburn();
+    },
+    buildKenburn: function () {
+        kbs.viewport.kenburnIt({
+            images: [
+                "assets/img/home/mbl0.jpg",
+                "assets/img/home/mbl1.jpg",
+                "assets/img/home/mbl2.jpg",
+                "assets/img/home/mbl3.jpg"
+            ],
+            zoom: 1.2,
+            duration: 10
+        });
+    },
+    bindUIActions: function () {
+
+    },
+    updateContent: function () {
+
+    }
+};   
+}
 
 $(document).ready(function () {
 // in this event changed ID to CLASS 

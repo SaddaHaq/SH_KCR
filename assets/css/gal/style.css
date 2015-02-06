@@ -317,13 +317,14 @@ button.gamma-btn-sspause:before {
         }
         .vdo-play img{
             cursor: pointer;
-            max-width: 15%;
+            max-width: 50px;
         }
         .vdo-play{
 position: absolute;
-margin-left: 190px !important;
-margin-top: 100px !important;
+margin-left: -45px !important;
+margin-top: 85px !important;
 opacity: 0.9;
+left: 53%;
 }
 #video-items{
     margin-top: 20px;

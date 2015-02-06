@@ -8,7 +8,7 @@
         <div class="lightbox"></div>
         <div id="video-wrapper">
             <div class="vdo-close"><i class="icon-remove-sign"></i></div>
-            <iframe id="youtube" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+            <iframe id="youtube" width="560" height="349" frameborder="0" allowfullscreen></iframe>
             <h4 class="vdo-title"></h4>
         </div>
         <div class="left-mnu hidn-sidbar hidden-xs"><ul class="lft-mnu-lst">

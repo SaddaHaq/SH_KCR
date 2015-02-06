@@ -34,7 +34,7 @@
             </section>
         </div>
         
-        <div id="ad-mnu" class="transition ad-mnu">
+<!--        <div id="ad-mnu" class="transition ad-mnu">
             <h3 class="men-title"></h3>
             <section>
                 <div class="diamond" data-tag="My policies towards a developed Telangana">
@@ -89,10 +89,10 @@
                 </div>
             </section>
             <p class="tag"></p>
-        </div>
+        </div>-->
         
          <!--menu 2-->
-        <div id="the_person" class="transition ad-mnu" style="position: fixed;">
+<!--        <div id="the_person" class="transition ad-mnu" style="position: fixed;">
             <h3 class="men-title"></h3>
             <section>
                 <div class="diamond" data-tag="My policies towards a developed Telangana">
@@ -131,10 +131,10 @@
                 </div>
             </section>
             <p class="tag"></p>
-        </div>
+        </div>-->
          
          <!--menu 3-->
-         <div id="the_actvst" class="transition ad-mnu" style="position: fixed; height: 100%;">
+<!--         <div id="the_actvst" class="transition ad-mnu" style="position: fixed; height: 100%;">
             <h3 class="men-title"></h3>
             <section>
                 <div class="diamond" data-tag="My journey from a common man to a freedom fighter">
@@ -175,7 +175,7 @@
                 </div>
             </section>
             <p class="tag"></p>
-        </div>
+        </div>-->
          
          <!--menu 4-->
 <!--         <div id="connect" class="transition ad-mnu" style="position: fixed; height: 100%;">

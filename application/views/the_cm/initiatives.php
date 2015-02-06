@@ -50,8 +50,7 @@
                         <div class="sub-page swiper-slide" data-hash="initiatives" style="overflow: visible;">
                             <!--Page side bar--> 
                             <div class="page-side" style="float: right">
-                                <div class="mbl-mnu"><i class="icon-list"></i></div>
-                                <div class="inner-wrapper scrollbar">
+                                    <div class="inner-wrapper scrollbar">
                                     <div class="mbl-mnu"><i class="icon-list"></i></div>
                                     <div class="sub-page-title">
                                         <h2 class="mycontainer ">The CM</h2>
