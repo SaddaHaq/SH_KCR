@@ -220,7 +220,7 @@ $(document).ready(function () {
                 var i;
                 for (i = 0; i < l; i++) {
                     $('.vertical-portfolio').append('<div class="portfolio-item row"><div class="item-image col-sm-5">' +
-                            '<img src="/assets/img/portfolio/' + data[i]._image_ + '" alt="" class="img-responsive">' +
+                            '<img src="/assets/img/portfolio/the_cm/' + data[i]._image_ + '" alt="" class="img-responsive">' +
                             '</div><div class="item-info col-sm-5"><div class="inner-wrapper">' +
                             '<h3 class="title" style="margin-top: auto;">' + data[i]._title_ + '</h3>' +
                             '<p class="item-description">' + data[i]._description_ + '</p>' +
@@ -244,7 +244,7 @@ $(document).ready(function () {
                 var i;
                 for (i = 0; i < l; i++) {
                     $('.vertical-portfolio').append('<div class="portfolio-item row"><div class="item-image col-sm-5">' +
-                            '<img src="/assets/img/portfolio/' + data[i]._image_ + '" alt="" class="img-responsive">' +
+                            '<img src="/assets/img/portfolio/the_leader/' + data[i]._image_ + '" alt="" class="img-responsive">' +
                             '</div><div class="item-info col-sm-5"><div class="inner-wrapper">' +
                             '<h3 class="title" style="margin-top: auto;">' + data[i]._title_ + '</h3>' +
                             '<p class="item-description">' + data[i]._description_ + '</p>' +
@@ -260,8 +260,7 @@ $(document).ready(function () {
             url: '/index/get_initiatives',
             type: 'post',
             data: {
-//                catg: path[1]
-                catg: 'the_leader'
+                catg: path[1]
             },
             success: function (d) {
                 var data = JSON.parse(d);
@@ -269,7 +268,7 @@ $(document).ready(function () {
                 var i;
                 for (i = 0; i < l; i++) {
                     $('.vertical-portfolio').append('<div class="portfolio-item row"><div class="item-image col-sm-5">' +
-                            '<img src="/assets/img/portfolio/' + data[i]._image_ + '" alt="" class="img-responsive">' +
+                            '<img src="/assets/img/portfolio/the_visionary/' + data[i]._image_ + '" alt="" class="img-responsive">' +
                             '</div><div class="item-info col-sm-5"><div class="inner-wrapper">' +
                             '<h3 class="title" style="margin-top: auto;">' + data[i]._title_ + '</h3>' +
                             '<p class="item-description">' + data[i]._description_ + '</p>' +
