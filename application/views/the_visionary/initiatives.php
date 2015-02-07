@@ -161,7 +161,7 @@
 
         <!-- main js engine -->
         <script type="text/javascript" src="<?=DOMAIN?>/assets/js/custom_1.js?v=1"></script>
-        <script type="text/javascript" src="<?=DOMAIN?>/assets/js/custom.js?v=2"></script>
+        <script type="text/javascript" src="<?=DOMAIN?>/assets/js/custom.js?v=3"></script>
         <script type="text/javascript" src="<?=DOMAIN?>/assets/js/gal.js?v=1"></script>
         <script type="text/javascript">
             
